@@ -13,14 +13,15 @@ MonoBehaviour:
   m_Name: MSCancer
   m_EditorClassIdentifier: 
   headline: Mad Scientist Cures cancer
-  body: "The local Mad Scientist develops a cure for cancer while attempting to \u201Creawaken
+  body: "The local Mad Scientist develops a cure for cancer while attempting to \u201Cawaken
     the beast inside\".\u201CI WANTED DINOSAURS!\u201D he screamed at reporters before
     flinging a clipboard and weeping openly.\nHis test subjects (3 lab-rats and 1
-    intern) is now cancer-free but reports cravings for raw meat."
-  isApproved: 0
-  isReviewed: 0
+    intern) is now cancer-free but reports cravings for raw meat.\nDespite objections,
+    locals now call him a hero and is now a leading candidate for mayor."
+  isApproved: 1
+  isReviewed: 1
   trustImpact: 0
-  perceptionImpact: 0
-  engagementImpact: 0
+  perceptionImpact: 5
+  engagementImpact: 10
   revenueImpact: 0
   unlockConditions: []

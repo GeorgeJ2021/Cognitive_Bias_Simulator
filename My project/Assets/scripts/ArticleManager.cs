@@ -19,10 +19,22 @@ public class ArticleManager : MonoBehaviour
     public Button rejectButton;
     private Article currentArticle;
     private Dictionary<Article, GameObject> articleButtons = new();
+
+    [Header("Stats Preview UI")]
+    public GameObject statsPopup;
+    public TMP_Text trustText;
+    public TMP_Text perceptionText;
+    public TMP_Text engagementText;
+    public TMP_Text revenueText;
+    public Button viewStatsButton;
+    public Button closePopupButton;
+
     // Start is called before the first frame update
     void Start()
     {
         LoadCycle(currentCycleIndex);
+        viewStatsButton.onClick.AddListener(ShowStatsPopup);
+        closePopupButton.onClick.AddListener(() => statsPopup.SetActive(false));
     }
     public void LoadCycle(int index)
     {
@@ -94,6 +106,24 @@ public class ArticleManager : MonoBehaviour
                 image.color = color;
             }
         }
+    }
+
+    void ShowStatsPopup()
+    {
+        if (currentArticle == null) return;
+
+        statsPopup.SetActive(true);
+        //viewStatsButton.SetActive(false);
+        trustText.text = "Public Trust: " + FormatImpact(currentArticle.trustImpact);
+        perceptionText.text = "Public Perception: " + FormatImpact(currentArticle.perceptionImpact);
+        engagementText.text = "Engagement: " + FormatImpact(currentArticle.engagementImpact);
+        revenueText.text = "Revenue: " + FormatImpact(currentArticle.revenueImpact);
+    }
+
+    string FormatImpact(int value)
+    {
+        if (value == 0) return "+0";
+        return value > 0 ? "+" + value.ToString() : value.ToString();
     }
 
     void ApplyArticleEffects(Article article)

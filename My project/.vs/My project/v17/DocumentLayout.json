@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Dissertation\\Cognitive_Bias_Simulator\\My project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|c:\\dissertation\\cognitive_bias_simulator\\my project\\assets\\scripts\\articlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\articlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|c:\\dissertation\\cognitive_bias_simulator\\my project\\assets\\scripts\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,12 +23,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ArticleManager.cs",
+              "DocumentMoniker": "C:\\Dissertation\\Cognitive_Bias_Simulator\\My project\\Assets\\scripts\\ArticleManager.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\ArticleManager.cs",
+              "ToolTip": "C:\\Dissertation\\Cognitive_Bias_Simulator\\My project\\Assets\\scripts\\ArticleManager.cs",
+              "RelativeToolTip": "Assets\\scripts\\ArticleManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T11:23:45.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Article.cs",
               "DocumentMoniker": "C:\\Dissertation\\Cognitive_Bias_Simulator\\My project\\Assets\\scripts\\Article.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Article.cs",
               "ToolTip": "C:\\Dissertation\\Cognitive_Bias_Simulator\\My project\\Assets\\scripts\\Article.cs",
               "RelativeToolTip": "Assets\\scripts\\Article.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-21T13:17:15.628Z",
               "EditorCaption": ""

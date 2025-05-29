@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   headline: New Pizza
   body: Hey there is a new pizza out NOW!!
-  isApproved: 1
-  isReviewed: 1
+  isApproved: 0
+  isReviewed: 0
   trustImpact: 0
   perceptionImpact: 0
   engagementImpact: 0
-  revenueImpact: 0
+  revenueImpact: 20
   unlockConditions: []

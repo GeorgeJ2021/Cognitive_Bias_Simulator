@@ -19,8 +19,8 @@ public class ArticleUnlockCondition
 [CreateAssetMenu(fileName = "NewArticle", menuName = "News/Article")]
 public class Article : ScriptableObject
 {
-    public string headline;
-    [TextArea] public string body;
+    [TextArea(3,5)] public string headline;
+    [TextArea(3,10)] public string body;
     public bool isApproved = false;
     public bool isReviewed = false;
     //public Sprite image;
