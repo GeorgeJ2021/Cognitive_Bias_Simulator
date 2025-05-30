@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b7365449440ba4fb115dd558e866bd, type: 3}
+  m_Name: JellyFish
+  m_EditorClassIdentifier: 
+  headline: 'New Species of Jelly Fish Found '
+  body: "Marine biologists have identified a new species of jellyfish, nicknamed
+    \"Glow Gust\", describing it as \"translucent, slow-moving, and faintly bioluminescent.\"\nThe
+    creature measures just 4 cm across and emits a soft blue glow when disturbed.
+    Experts say it poses no threat to humans and is likely a deep-sea drifter brought
+    closer to shore by shifting currents. \nThis discovery has sparked some excitement
+    among biologists and exactly one themed beachside cocktail."
+  isApproved: 0
+  isReviewed: 1
+  trustImpact: 0
+  perceptionImpact: 0
+  engagementImpact: 2
+  revenueImpact: 0
+  unlockConditions: []

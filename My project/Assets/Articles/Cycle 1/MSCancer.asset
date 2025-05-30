@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b7365449440ba4fb115dd558e866bd, type: 3}
+  m_Name: MSCancer
+  m_EditorClassIdentifier: 
+  headline: Mad Scientist Cures cancer
+  body: "The local Mad Scientist develops a cure for cancer while attempting to \u201Cawaken
+    the beast inside\" by rewriting human DNA with long-extinct dinosaur genes.\n\n\u201CI
+    WANTED DINOSAURS!\u201D he screamed at reporters before flinging a clipboard
+    and weeping openly.\nHis test subjects (3 lab-rats and 1 intern) is now cancer-free
+    but reports cravings for raw meat.\n\nDespite objections, locals now call him
+    a hero and is now a leading candidate for mayor."
+  isApproved: 1
+  isReviewed: 1
+  trustImpact: 0
+  perceptionImpact: 5
+  engagementImpact: 10
+  revenueImpact: 0
+  unlockConditions: []
