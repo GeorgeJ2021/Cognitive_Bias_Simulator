@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39b7365449440ba4fb115dd558e866bd, type: 3}
   m_Name: MSCancer
   m_EditorClassIdentifier: 
-  headline: Mad Scientist Cures cancer
+  headline: "Mad Scientist Cures \ncancer"
   body: "The local Mad Scientist develops a cure for cancer while attempting to \u201Cawaken
     the beast inside\" by rewriting human DNA with long-extinct dinosaur genes.\n\n\u201CI
     WANTED DINOSAURS!\u201D he screamed at reporters before flinging a clipboard
     and weeping openly.\nHis test subjects (3 lab-rats and 1 intern) is now cancer-free
     but reports cravings for raw meat.\n\nDespite objections, locals now call him
     a hero and is now a leading candidate for mayor."
-  isApproved: 1
+  isApproved: 0
   isReviewed: 1
   trustImpact: 0
   perceptionImpact: 5

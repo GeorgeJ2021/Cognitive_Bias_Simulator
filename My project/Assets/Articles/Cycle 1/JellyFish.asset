@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39b7365449440ba4fb115dd558e866bd, type: 3}
   m_Name: JellyFish
   m_EditorClassIdentifier: 
-  headline: 'New Species of Jelly Fish Found '
+  headline: "New Species of \nJelly Fish Found "
   body: "Marine biologists have identified a new species of jellyfish, nicknamed
-    \"Glow Gust\", describing it as \"translucent, slow-moving, and faintly bioluminescent.\"\nThe
+    \"Glow Gust\", describing it as \"translucent, slow-moving, and faintly bioluminescent.\"\n\nThe
     creature measures just 4 cm across and emits a soft blue glow when disturbed.
     Experts say it poses no threat to humans and is likely a deep-sea drifter brought
-    closer to shore by shifting currents. \nThis discovery has sparked some excitement
+    closer to shore by shifting currents.\n \nThis discovery has sparked some excitement
     among biologists and exactly one themed beachside cocktail."
   isApproved: 0
   isReviewed: 1

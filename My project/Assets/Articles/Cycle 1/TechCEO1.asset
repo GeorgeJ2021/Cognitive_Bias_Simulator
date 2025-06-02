@@ -17,10 +17,10 @@ MonoBehaviour:
     of Tax Evasion'
   body: "Fabio Katel, head of local tech giant FabriKator, is facing allegations
     of tax evasion totaling over 4 million credits.\nAuthorities claim irregularities
-    in offshore accounts and unreported revenue streams.\nKatel has denied all charges,
-    blaming \u201Caccounting errors\u201D and accusing investigators of political
-    motivation. \n\nThe public remains divided as some defend Katel as a job-creator
-    and innovator while others see a powerful figure dodging justice."
+    in offshore accounts and unreported revenue streams.\n\nKatel has denied all
+    charges, blaming \u201Caccounting errors\u201D and accusing investigators of
+    political motivation. \n\nThe public remains divided as some defend Katel as
+    a job-creator and innovator while others see a powerful figure dodging justice."
   isApproved: 0
   isReviewed: 1
   trustImpact: 5
