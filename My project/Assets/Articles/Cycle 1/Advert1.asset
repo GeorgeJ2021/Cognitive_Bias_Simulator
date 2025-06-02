@@ -12,8 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39b7365449440ba4fb115dd558e866bd, type: 3}
   m_Name: Advert1
   m_EditorClassIdentifier: 
-  headline: New Pizza
-  body: Hey there is a new pizza out NOW!!
+  headline: "Advert: Introducing the \n\"Victory Slice\"!"
+  body: "Inspired by THOSE WHO RUN TOWARD THE FIRE. Pizza Palace proudly unveils
+    a hearty new combo dedicated to strength, substance, and GOOD DECISIONS. \nOur
+    Victory Slice now comes with a side of COURAGE CRUST\u2122, and a drink we\u2019re
+    calling EFFICIENCY SODA because sometimes the right choice ISN\u2019T FLASHY\u2026
+    IT\u2019S JUST SMART.\n\nThis week only: Buy a Victory Slice, and we\u2019ll
+    throw in a second slice because great things deserve a SECOND TERM!"
   isApproved: 0
   isReviewed: 0
   trustImpact: 0
