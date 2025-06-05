@@ -30,9 +30,7 @@ public class ArticleManager : MonoBehaviour
     public Button viewStatsButton;
     public Button closePopupButton;
 
-    public GameObject FullStats;
-    public Button viewFullStatsButton;
-    public Button closeFullStatsButton;
+
 
     // Start is called before the first frame update
     void Start()
@@ -41,8 +39,7 @@ public class ArticleManager : MonoBehaviour
         viewStatsButton.onClick.AddListener(ShowStatsPopup);
         closePopupButton.onClick.AddListener(() => statsPopup.SetActive(false));
 
-        viewFullStatsButton.onClick.AddListener(() => FullStats.SetActive(true));
-        closeFullStatsButton.onClick.AddListener(() => FullStats.SetActive(false));
+       
     }
     public void LoadCycle(int index)
     {
@@ -128,16 +125,12 @@ public class ArticleManager : MonoBehaviour
         revenueText.text = "Revenue: " + FormatImpact(currentArticle.revenueImpact);
     }
 
-    void ShowFullStats()
-    {
-        FullStats.SetActive(true);
-    }
-
     string FormatImpact(int value)
     {
-        if (value == 0) return "+0";
-        return value > 0 ? "+" + value.ToString() : value.ToString();
-
+        if (value == 0) return "<color=white>+0</color>";
+        string color = value > 0 ? "green" : "red";
+        string sign = value > 0 ? "+" : "";
+        return $"<color={color}>{sign}{value}</color>";
     }
 
     void ApplyArticleEffects(Article article)

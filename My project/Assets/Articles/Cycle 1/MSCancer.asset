@@ -21,7 +21,7 @@ MonoBehaviour:
     a hero and is now a leading candidate for mayor."
   isApproved: 0
   isReviewed: 1
-  trustImpact: 0
+  trustImpact: 5
   perceptionImpact: 5
   engagementImpact: 10
   revenueImpact: 0
