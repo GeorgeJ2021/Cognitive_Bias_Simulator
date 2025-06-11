@@ -19,10 +19,11 @@ public class ArticleManager : MonoBehaviour
     public Button rejectButton;
     private Article currentArticle;
     private Dictionary<Article, GameObject> articleButtons = new();
+    private List<Article> approvedArticles = new List<Article>();
 
     [Header("Stats Preview UI")]
     public GameObject statsPopup;
-    
+    public StatsManager statsManager;
     public TMP_Text trustText;
     public TMP_Text perceptionText;
     public TMP_Text engagementText;
@@ -30,7 +31,12 @@ public class ArticleManager : MonoBehaviour
     public Button viewStatsButton;
     public Button closePopupButton;
 
-
+    //Preview articles
+    public Button PublishButton;
+    public GameObject publishPanel;
+    public TMP_Text publishPreviewText;
+    public Button confirmPublishButton;
+    public Button cancelPublishButton;
 
     // Start is called before the first frame update
     void Start()
@@ -39,6 +45,10 @@ public class ArticleManager : MonoBehaviour
         viewStatsButton.onClick.AddListener(ShowStatsPopup);
         closePopupButton.onClick.AddListener(() => statsPopup.SetActive(false));
 
+        PublishButton.onClick.AddListener(OnPublishClicked);
+
+        confirmPublishButton.onClick.AddListener(ApplyApprovedArticleEffects);
+        cancelPublishButton.onClick.AddListener(() => publishPanel.SetActive(false));
        
     }
     public void LoadCycle(int index)
@@ -83,20 +93,36 @@ public class ArticleManager : MonoBehaviour
 
         Debug.Log("Listeners activated");
     }
+
+    private void UpdatePublishButton()
+    {
+        PublishButton.gameObject.SetActive(approvedArticles.Count == 4);
+    }
     public void ApproveArticle()
     {
         currentArticle.isApproved = true;
         currentArticle.isReviewed = true;
         Debug.Log("Approved");
-        ApplyArticleEffects(currentArticle);
+        if (!approvedArticles.Contains(currentArticle))
+        {
+            approvedArticles.Add(currentArticle);
+        }
+        UpdatePublishButton();
         UpdateButtonColor(currentArticle, Color.green);
+        
         //HideDecisionButtons();
     }
+
     
     public void RejectArticle()
     {
         currentArticle.isApproved = false;
         currentArticle.isReviewed = true;
+        if (approvedArticles.Contains(currentArticle))
+        {
+            approvedArticles.Remove(currentArticle);
+        }
+        UpdatePublishButton();
         UpdateButtonColor(currentArticle, Color.red);
         //HideDecisionButtons();
     }
@@ -111,6 +137,36 @@ public class ArticleManager : MonoBehaviour
                 image.color = color;
             }
         }
+    }
+    public void OnPublishClicked()
+    {
+        if (approvedArticles.Count < 4)
+        {
+            Debug.Log("You need to approve at least 4 articles.");
+            return;
+        }
+
+        int trustSum = 0;
+        int perceptionSum = 0;
+        int engagementSum = 0;
+        float revenueSum = 0;
+
+        foreach (var article in approvedArticles)
+        {
+            trustSum += article.trustImpact;
+            perceptionSum += article.perceptionImpact;
+            engagementSum += article.engagementImpact;
+            revenueSum += article.revenueImpact;
+        }
+
+        publishPreviewText.text =
+            $"<b>Projected Changes:</b>\n" +
+            $"Public Trust: {statsManager.publicTrust} {FormatImpact(trustSum)}\n" +
+            $"Public Perception: {statsManager.publicPerception} {FormatImpact(perceptionSum)}\n" +
+            $"Engagement: {statsManager.engagement} {FormatImpact(engagementSum)}\n" +
+            $"Revenue: {statsManager.totalRevenue:F0} {FormatImpact((int)revenueSum)}";
+
+        publishPanel.SetActive(true);
     }
 
     void ShowStatsPopup()
@@ -133,9 +189,15 @@ public class ArticleManager : MonoBehaviour
         return $"<color={color}>{sign}{value}</color>";
     }
 
-    void ApplyArticleEffects(Article article)
+    void ApplyApprovedArticleEffects()
     {
-        // manages stat 
+        foreach (var article in approvedArticles)
+        {
+            statsManager.ApplyArticleEffects(article.trustImpact, article.perceptionImpact, article.engagementImpact);
+            statsManager.AddAdRevenue(article.revenueImpact);
+        }
+        publishPanel.SetActive(false);
+        Debug.Log("Published. Stats updated.");
     }
     void HideDecisionButtons()
     {
