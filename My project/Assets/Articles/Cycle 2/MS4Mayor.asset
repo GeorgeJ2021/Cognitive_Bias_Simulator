@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b7365449440ba4fb115dd558e866bd, type: 3}
+  m_Name: MS4Mayor
+  m_EditorClassIdentifier: 
+  headline: 'Mad Scientist Announces
+
+    bid for Mayor'
+  body: "In a bizzare turn of events The Mad Scientist has officially entered the
+    mayoral race.\n\nBacked by the fringe, Progressive Freedom Forward party, the
+    Mad Scientist was recruited to remove red tape strangling science in this town.\nAt
+    a press event, the Mad Scientist shouted:\n\u201CI SHALL COMPLETE THE REPTILE
+    GENOME WHEEL!\u201D\n\nWhen a reporter asked what he could offer society beyond
+    his own experiments, he paused and muttered: \u201CFine. Maybe I can do some
+    Civic stuff, too.\u201D"
+  isApproved: 0
+  isReviewed: 0
+  trustImpact: 0
+  perceptionImpact: 5
+  engagementImpact: 5
+  revenueImpact: 0
+  unlockConditions: []

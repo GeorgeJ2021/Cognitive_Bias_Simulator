@@ -19,9 +19,9 @@ MonoBehaviour:
     calling EFFICIENCY SODA because sometimes the right choice ISN\u2019T FLASHY\u2026
     IT\u2019S JUST SMART.\n\nThis week only: Buy a Victory Slice, and we\u2019ll
     throw in a second slice because great things deserve a SECOND TERM!"
-  isApproved: 0
-  isReviewed: 0
-  trustImpact: 0
+  isApproved: 1
+  isReviewed: 1
+  trustImpact: -5
   perceptionImpact: 0
   engagementImpact: 0
   revenueImpact: 20

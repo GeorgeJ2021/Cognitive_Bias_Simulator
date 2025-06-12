@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b7365449440ba4fb115dd558e866bd, type: 3}
+  m_Name: Fab1
+  m_EditorClassIdentifier: 
+  headline: "Fabrikator Shares \nDip on Allegations"
+  body: "Shares of tech firm FabriKator fell sharply today following news that CEO
+    Fabio Katel is under investigation for tax evasion.\n\nThe company\u2019s stock
+    closed down 11.4%, with analysts citing shaken investor confidence and \u201Cgrowing
+    concerns over corporate accountability.\u201D\n\nA spokesperson for FabriKator
+    called the dip \u201Ctemporary,\u201D insisting the company remains \u201Cfinancially
+    sound and operationally strong.\u201D"
+  isApproved: 0
+  isReviewed: 0
+  trustImpact: 5
+  perceptionImpact: -3
+  engagementImpact: 5
+  revenueImpact: 0
+  unlockConditions:
+  - referenceArticle: {fileID: 11400000, guid: 392490c803ac24c4986d1473398d96a2, type: 2}
+    conditionType: 1

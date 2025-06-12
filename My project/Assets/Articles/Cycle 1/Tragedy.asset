@@ -25,7 +25,7 @@ MonoBehaviour:
   isApproved: 1
   isReviewed: 1
   trustImpact: 5
-  perceptionImpact: -3
+  perceptionImpact: -10
   engagementImpact: 10
   revenueImpact: 0
   unlockConditions: []

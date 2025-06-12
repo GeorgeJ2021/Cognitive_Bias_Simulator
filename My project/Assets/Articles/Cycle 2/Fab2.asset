@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b7365449440ba4fb115dd558e866bd, type: 3}
+  m_Name: Fab2
+  m_EditorClassIdentifier: 
+  headline: "Fabrikator stock remains \nstable amid rumors "
+  body: "FabriKator\u2019s market performance held steady today, following what company
+    representatives called a wave of \u201Cinaccurate and politically motivated speculation.\u201D\n\nCEO
+    Fabio Katel made a brief appearance at a tech conference, where he dismissed
+    the rumors as \u201Cmisinformation\u201D.\nInvestors appeared reassured, with
+    shares closing marginally up by 0.6%. Mayoral candidate Paul E. Teshun also weighed
+    in, calling Katel \u201Ca vital part of our future.\u201D"
+  isApproved: 0
+  isReviewed: 0
+  trustImpact: 5
+  perceptionImpact: 4
+  engagementImpact: 5
+  revenueImpact: 0
+  unlockConditions:
+  - referenceArticle: {fileID: 11400000, guid: 392490c803ac24c4986d1473398d96a2, type: 2}
+    conditionType: 2

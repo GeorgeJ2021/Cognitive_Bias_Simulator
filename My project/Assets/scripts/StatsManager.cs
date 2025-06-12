@@ -67,7 +67,7 @@ public class StatsManager : MonoBehaviour
 
     public void UpdateRevenue()
     {
-        baseRevenue = engagement * 10f;
+        baseRevenue = engagement * 5.0f;
     }
 
     public void AddAdRevenue(float amount)

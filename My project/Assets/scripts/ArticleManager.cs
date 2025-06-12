@@ -63,7 +63,7 @@ public class ArticleManager : MonoBehaviour
             GameObject btn = Instantiate(buttonPrefab, buttonContainer);
             btn.GetComponentInChildren<TMP_Text>().text = article.headline;
             articleButtons[article] = btn;
-            
+            article.isApproved = false;
             btn.GetComponent<Button>().onClick.AddListener(() =>
             {
                 DisplayArticle(article);
@@ -100,7 +100,7 @@ public class ArticleManager : MonoBehaviour
     }
     public void ApproveArticle()
     {
-        currentArticle.isApproved = true;
+         currentArticle.isApproved = true;
         currentArticle.isReviewed = true;
         Debug.Log("Approved");
         if (!approvedArticles.Contains(currentArticle))
@@ -193,11 +193,13 @@ public class ArticleManager : MonoBehaviour
     {
         foreach (var article in approvedArticles)
         {
+            currentArticle.isApproved = true;
             statsManager.ApplyArticleEffects(article.trustImpact, article.perceptionImpact, article.engagementImpact);
             statsManager.AddAdRevenue(article.revenueImpact);
         }
         publishPanel.SetActive(false);
         Debug.Log("Published. Stats updated.");
+        LoadNextCycle();
     }
     void HideDecisionButtons()
     {

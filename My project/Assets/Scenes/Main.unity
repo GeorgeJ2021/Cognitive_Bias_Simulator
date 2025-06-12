@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.13101009, g: 0.13825682, b: 0.12885123, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -9872,6 +9871,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   newsCycles:
   - {fileID: 11400000, guid: 87b726f370898c2418ed2b44e58ddf47, type: 2}
+  - {fileID: 11400000, guid: 72b29dc21cc5d6041872f6f2513f79a4, type: 2}
   buttonPrefab: {fileID: 9025000142443812203, guid: b4b1b363684f4b2479435d569042fa8c, type: 3}
   buttonContainer: {fileID: 1205090056}
   articleHeadline: {fileID: 214224521}
