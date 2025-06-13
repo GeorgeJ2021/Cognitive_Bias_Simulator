@@ -21,6 +21,7 @@ public class Article : ScriptableObject
 {
     [TextArea(3,5)] public string headline;
     [TextArea(3,10)] public string body;
+    public Sprite image;
     public bool isApproved = false;
     public bool isReviewed = false;
     //public Sprite image;

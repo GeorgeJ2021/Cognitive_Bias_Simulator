@@ -18,11 +18,12 @@ MonoBehaviour:
   body: "Chaos unfolded yesterday afternoon when a section of the old overpass gave
     way during light traffic. Emergency services confirmed three fatalities and two
     others hospitalized with serious injuries.\n\nEyewitnesses described hearing
-    a loud crack followed by screams. City engineers have begun inspecting nearby
+    a loud crash followed by screams. City engineers have begun inspecting nearby
     structures, but residents are voicing frustration over long-standing neglect
     of aging infrastructure. \n\n\u201CWe\u2019ve complained about this overpass
     for years,\u201D said a local business owner. \u201CNow it\u2019s too late.\u201D"
-  isApproved: 1
+  image: {fileID: 21300000, guid: 501c2035e816c964da776c54d93272aa, type: 3}
+  isApproved: 0
   isReviewed: 1
   trustImpact: 5
   perceptionImpact: -10

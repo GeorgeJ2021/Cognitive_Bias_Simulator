@@ -19,10 +19,11 @@ MonoBehaviour:
     and supermarkets have quietly replaced capsicum. \n\nNo protests have been reported,
     though one man in East Genericstan reportedly sighed and said, \u201COkay, sure,
     I guess.\u201D"
+  image: {fileID: 0}
   isApproved: 0
   isReviewed: 1
-  trustImpact: 5
+  trustImpact: 3
   perceptionImpact: 0
-  engagementImpact: 0
+  engagementImpact: 1
   revenueImpact: 0
   unlockConditions: []

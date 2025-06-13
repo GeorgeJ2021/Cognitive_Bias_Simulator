@@ -21,6 +21,11 @@ public class ArticleManager : MonoBehaviour
     private Dictionary<Article, GameObject> articleButtons = new();
     private List<Article> approvedArticles = new List<Article>();
 
+    [Header("Image Viewer UI")]
+    public GameObject imagePopupPanel;   
+    public Image popupArticleImage;
+    public Button showAttachmentsButton; 
+
     [Header("Stats Preview UI")]
     public GameObject statsPopup;
     public StatsManager statsManager;
@@ -31,7 +36,7 @@ public class ArticleManager : MonoBehaviour
     public Button viewStatsButton;
     public Button closePopupButton;
 
-    //Preview articles
+    [Header("Preview approved articles UI")]
     public Button PublishButton;
     public GameObject publishPanel;
     public TMP_Text publishPreviewText;
@@ -43,17 +48,21 @@ public class ArticleManager : MonoBehaviour
     {
         LoadCycle(currentCycleIndex);
         viewStatsButton.onClick.AddListener(ShowStatsPopup);
-        closePopupButton.onClick.AddListener(() => statsPopup.SetActive(false));
-
-        PublishButton.onClick.AddListener(OnPublishClicked);
-
-        confirmPublishButton.onClick.AddListener(ApplyApprovedArticleEffects);
-        cancelPublishButton.onClick.AddListener(() => publishPanel.SetActive(false));
        
+        PublishButton.onClick.AddListener(OnPublishClicked);
+        confirmPublishButton.onClick.AddListener(ApplyApprovedArticleEffects);       
     }
+
+    public void ClosePanel(GameObject panel)
+    {
+        panel.SetActive(false);
+    }
+
     public void LoadCycle(int index)
     {
         ClearButtons();
+        approvedArticles.Clear(); 
+        UpdatePublishButton();
         currentCycleIndex = index;
 
         foreach (var article in newsCycles[index].articles)
@@ -91,7 +100,27 @@ public class ArticleManager : MonoBehaviour
         approveButton.onClick.AddListener(() => ApproveArticle());
         rejectButton.onClick.AddListener(() => RejectArticle());
 
-        Debug.Log("Listeners activated");
+        //Debug.Log("Listeners activated");
+
+        if (article.image != null)
+        {
+            Debug.Log("Image detected");
+            popupArticleImage.sprite = article.image;
+            imagePopupPanel.SetActive(true); 
+            showAttachmentsButton.interactable = true;
+
+            showAttachmentsButton.onClick.RemoveAllListeners();
+            showAttachmentsButton.onClick.AddListener(() =>
+            {
+                imagePopupPanel.SetActive(true);
+                //showAttachmentsButton.interactable = false; 
+            });
+        }
+        else
+        {
+            imagePopupPanel.SetActive(false);
+            showAttachmentsButton.interactable = false;
+        }
     }
 
     private void UpdatePublishButton()

@@ -19,6 +19,7 @@ MonoBehaviour:
     concerns over corporate accountability.\u201D\n\nA spokesperson for FabriKator
     called the dip \u201Ctemporary,\u201D insisting the company remains \u201Cfinancially
     sound and operationally strong.\u201D"
+  image: {fileID: 21300000, guid: 865b3c3f4169bc544a8c3502c01608ce, type: 3}
   isApproved: 0
   isReviewed: 0
   trustImpact: 5
