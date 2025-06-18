@@ -223,7 +223,7 @@ public class ArticleManager : MonoBehaviour
         foreach (var article in approvedArticles)
         {
             currentArticle.isApproved = true;
-            statsManager.ApplyArticleEffects(article.trustImpact, article.perceptionImpact, article.engagementImpact);
+            statsManager.ApplyArticleEffects(article.trustImpact, article.perceptionImpact, article.engagementImpact, article.paulSupportImpact, article.scientistSupportImpact);
             statsManager.AddAdRevenue(article.revenueImpact);
         }
         publishPanel.SetActive(false);

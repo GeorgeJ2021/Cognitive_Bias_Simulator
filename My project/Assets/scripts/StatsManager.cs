@@ -10,6 +10,9 @@ public class StatsManager : MonoBehaviour
     public int publicPerception = 50;
     public int engagement = 0;
 
+    public int paulPopularity = 0;
+    public int scientistPopularity = 0;
+
     public float baseRevenue = 0f;
     public float adRevenue = 0f;
 
@@ -36,11 +39,14 @@ public class StatsManager : MonoBehaviour
         });
         closeFullStatsButton.onClick.AddListener(() => FullStats.SetActive(false));
     }
-    public void ApplyArticleEffects(int trustChange, int perceptionChange, int engagementChange)
+    public void ApplyArticleEffects(int trustChange, int perceptionChange, int engagementChange, int paulSupportImpact, int scientistSupportImpact)
     {
         publicTrust = Mathf.Clamp(publicTrust + trustChange, 0, 100);
         publicPerception = Mathf.Clamp(publicPerception + perceptionChange, 0, 100);
         engagement = Mathf.Clamp(engagement + engagementChange, 0, 100);
+
+        paulPopularity += paulSupportImpact;
+        scientistPopularity += scientistSupportImpact;
 
         UpdateEngagement();
         UpdateStatsDisplay();

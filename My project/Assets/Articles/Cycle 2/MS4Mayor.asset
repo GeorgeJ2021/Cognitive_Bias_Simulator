@@ -22,10 +22,13 @@ MonoBehaviour:
     GENOME WHEEL!\u201D\n\nWhen a reporter asked what he could offer society beyond
     his own experiments, he paused and muttered: \u201CFine. Maybe I can do some
     Civic stuff, too.\u201D"
+  image: {fileID: 0}
   isApproved: 0
   isReviewed: 0
   trustImpact: 0
   perceptionImpact: 5
   engagementImpact: 5
   revenueImpact: 0
+  paulSupportImpact: 0
+  scientistSupportImpact: 1
   unlockConditions: []
