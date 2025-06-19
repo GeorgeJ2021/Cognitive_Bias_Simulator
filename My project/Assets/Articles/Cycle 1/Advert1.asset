@@ -13,13 +13,15 @@ MonoBehaviour:
   m_Name: Advert1
   m_EditorClassIdentifier: 
   headline: "Advert: Introducing the \n\"Victory Slice\"!"
-  body: "Inspired by THOSE WHO RUN TOWARD THE FIRE. Pizza Palace proudly unveils
-    a hearty new combo dedicated to strength, substance, and GOOD DECISIONS. \nOur
-    Victory Slice now comes with a side of COURAGE CRUST\u2122, and a drink we\u2019re
-    calling EFFICIENCY SODA because sometimes the right choice ISN\u2019T FLASHY\u2026
-    IT\u2019S JUST SMART.\n\nThis week only: Buy a Victory Slice, and we\u2019ll
-    throw in a second slice because great things deserve a SECOND TERM!"
-  isApproved: 1
+  body: "Inspired by those who BUILD OUR FUTURE\u2014not tear it down. That\u2019s
+    why this week, our Victory Slice\u2122 comes with extra SUPPORT SAUCE and a limited-edition
+    \u201CInnocent Until Pizza\u201D box design.\n\nMistakes? Misunderstandings? 
+    We say: don\u2019t bite the hand that feeds the city's tech sector. So here\u2019s
+    the deal: buy a Loyalty Lunch\u2122 and we\u2019ll pretend we never saw that
+    piece about Mr. Katel.\n\nSecond Slice Free if you agree that maybe... just maybe...
+    we\u2019ve got the wrong villain."
+  image: {fileID: 0}
+  isApproved: 0
   isReviewed: 1
   trustImpact: -5
   perceptionImpact: 0

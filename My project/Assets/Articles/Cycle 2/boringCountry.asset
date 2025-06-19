@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b7365449440ba4fb115dd558e866bd, type: 3}
+  m_Name: boringCountry
+  m_EditorClassIdentifier: 
+  headline: "Genericstan Voted World's \nMost Boring Country"
+  body: "For the third year in a row, Genericstan has been ranked the most boring
+    country on Earth. \n\nTourists describe it as \u201Cmeh\u201D while critics point
+    out that Genericstan has no international holidays, no global exports, and not
+    a single historical event of note. \n\nAlthough one man from East Genericstan
+    claimed the poll was \u201Cunfair,\u201D citing a recent car alarm and a mailbox
+    painted teal, they admitted, \u201CI just want something to happen.\u201D"
+  image: {fileID: 0}
+  isApproved: 0
+  isReviewed: 0
+  trustImpact: 0
+  perceptionImpact: 0
+  engagementImpact: 1
+  revenueImpact: 0
+  unlockConditions: []

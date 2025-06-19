@@ -25,7 +25,7 @@ MonoBehaviour:
   image: {fileID: 0}
   isApproved: 0
   isReviewed: 0
-  trustImpact: 0
+  trustImpact: 5
   perceptionImpact: 5
   engagementImpact: 5
   revenueImpact: 0

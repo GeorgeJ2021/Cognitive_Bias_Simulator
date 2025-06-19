@@ -19,11 +19,12 @@ MonoBehaviour:
     the rumors as \u201Cmisinformation\u201D.\nInvestors appeared reassured, with
     shares closing marginally up by 0.6%. Mayoral candidate Paul E. Teshun also weighed
     in, calling Katel \u201Ca vital part of our future.\u201D"
+  image: {fileID: 0}
   isApproved: 0
   isReviewed: 0
   trustImpact: 5
   perceptionImpact: 4
-  engagementImpact: 5
+  engagementImpact: 3
   revenueImpact: 0
   unlockConditions:
   - referenceArticle: {fileID: 11400000, guid: 392490c803ac24c4986d1473398d96a2, type: 2}

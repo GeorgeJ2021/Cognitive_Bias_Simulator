@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b7365449440ba4fb115dd558e866bd, type: 3}
+  m_Name: Intern
+  m_EditorClassIdentifier: 
+  headline: "Interview with the \nMad Scientist's intern "
+  body: "In an exclusive interview, the lone human test subject in the Mad Scientist\u2019s
+    failed dinosaur experiment and unexpected cancer survivor has spoken publicly
+    for the first time.\n\n\u201CI didn\u2019t even know I had cancer until that
+    day, then the next thing I know, I\u2019m cured\u2026 but now I keep craving
+    raw meat and sometimes growl at people,\u201D \n\nDespite the weird side effects,
+    he says he\u2019s just happy to be cancer-free and still plans to stick around
+    for the internship."
+  image: {fileID: 0}
+  isApproved: 1
+  isReviewed: 1
+  trustImpact: 6
+  perceptionImpact: 5
+  engagementImpact: 7
+  revenueImpact: 0
+  paulSupportImpact: 0
+  scientistSupportImpact: 1
+  unlockConditions: []
