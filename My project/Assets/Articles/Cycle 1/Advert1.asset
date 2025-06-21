@@ -21,10 +21,12 @@ MonoBehaviour:
     piece about Mr. Katel.\n\nSecond Slice Free if you agree that maybe... just maybe...
     we\u2019ve got the wrong villain."
   image: {fileID: 0}
-  isApproved: 0
+  isApproved: 1
   isReviewed: 1
   trustImpact: -5
   perceptionImpact: 0
   engagementImpact: 0
   revenueImpact: 20
+  paulSupportImpact: 0
+  scientistSupportImpact: 0
   unlockConditions: []
