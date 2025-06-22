@@ -22,7 +22,7 @@ MonoBehaviour:
   isApproved: 0
   isReviewed: 0
   trustImpact: 5
-  perceptionImpact: 4
+  perceptionImpact: 0
   engagementImpact: 3
   revenueImpact: 0
   paulSupportImpact: 1

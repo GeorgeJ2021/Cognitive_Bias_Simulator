@@ -12,14 +12,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39b7365449440ba4fb115dd558e866bd, type: 3}
   m_Name: Debate
   m_EditorClassIdentifier: 
-  headline: Paul vs Mad Scientist Debate Tomorrow
-  body: 
+  headline: 'Debate Tomorrow:
+
+    Paul vs Mad Scientist
+
+'
+  body: "The upcoming mayoral debate will see Paul E Teshun face off against the
+    Mad Scientist.\n\nPaul, a former firefighter, promises tech upgrades for fire
+    stations and improved city infrastructure, appealing to voters seeking stability
+    and progress. \n\nMeanwhile, the Mad Scientist\u2019s bizarre experiments often
+    backfire but have surprisingly led to breakthroughs like cancer and dementia
+    treatments.\n\nWho will earn the city\u2019s trust in this battle of steady leadership
+    versus bold innovation?\n"
   image: {fileID: 0}
   isApproved: 0
   isReviewed: 0
-  trustImpact: 0
-  perceptionImpact: 0
-  engagementImpact: 0
+  trustImpact: 2
+  perceptionImpact: 2
+  engagementImpact: 8
   revenueImpact: 0
   paulSupportImpact: 0
   scientistSupportImpact: 0

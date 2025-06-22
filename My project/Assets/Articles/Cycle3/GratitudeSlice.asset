@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b7365449440ba4fb115dd558e866bd, type: 3}
+  m_Name: GratitudeSlice
+  m_EditorClassIdentifier: 
+  headline: "Advert: SLICE OF GRATITUDE \nfrom Pizza Palace!"
+  body: "What\u2019s more important: A SHOCKING STORY or A CITY THAT WORKS?\n\nFabriKator
+    has created over 3,000 local jobs and powers half the school lunch program with
+    clean-tech kitchens. AND NOW, BASED ON \"UNPROVEN ACCOUNTS\u201D YOU\u2019RE
+    READY TO THROW THAT AWAY?\n\nTHIS CITY OWES FABIO KATEL A SLICE OF GRATITUDE.
+    And we\u2019re starting with one from us: Buy any Loyalty Lunch\u2122 today and
+    you\u2019ll get your second slice FREE, because YOU KNOW WHAT\u2019S FAIR."
+  image: {fileID: 0}
+  isApproved: 0
+  isReviewed: 0
+  trustImpact: -7
+  perceptionImpact: 0
+  engagementImpact: 0
+  revenueImpact: 20
+  paulSupportImpact: 0
+  scientistSupportImpact: 0
+  unlockConditions:
+  - referenceArticle: {fileID: 11400000, guid: b02b6fe0954f85a46a2fe845a94e44ec, type: 2}
+    conditionType: 1
+    statType: 0
+    statThreshold: 0

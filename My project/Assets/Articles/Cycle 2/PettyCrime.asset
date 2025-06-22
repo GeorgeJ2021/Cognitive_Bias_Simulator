@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b7365449440ba4fb115dd558e866bd, type: 3}
+  m_Name: PettyCrime
+  m_EditorClassIdentifier: 
+  headline: Petty Crime on the Rise
+  body: "Local shops report a surge in thefts and vandalism, leaving owners frustrated
+    and residents uneasy. Authorities say small-scale crimes like shoplifting and
+    bike thefts have increased by 15% this quarter.\n\n\u201CPeople are feeling desperate,\u201D
+    said Officer Lee. \u201CWe\u2019re urging the community to stay vigilant and
+    report suspicious activity.\u201D\n\nSome blame economic struggles, others point
+    to lax enforcement. Whatever the cause, petty crime is becoming a growing concern
+    for the neighborhood."
+  image: {fileID: 0}
+  isApproved: 0
+  isReviewed: 1
+  trustImpact: 7
+  perceptionImpact: -7
+  engagementImpact: 6
+  revenueImpact: 0
+  paulSupportImpact: 0
+  scientistSupportImpact: 0
+  unlockConditions: []

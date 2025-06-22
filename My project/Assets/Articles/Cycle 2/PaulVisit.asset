@@ -20,11 +20,11 @@ MonoBehaviour:
     he said,  \u201CI came here because this never should\u2019ve happened.\u201D\n\nHe
     praised emergency crews for their quick response and promised a full review of
     neglected infrastructure."
-  image: {fileID: 0}
-  isApproved: 1
+  image: {fileID: 21300000, guid: fc59310af434bee408d88c6edb86fd64, type: 3}
+  isApproved: 0
   isReviewed: 1
   trustImpact: 5
-  perceptionImpact: 4
+  perceptionImpact: 2
   engagementImpact: 7
   revenueImpact: 0
   paulSupportImpact: 1

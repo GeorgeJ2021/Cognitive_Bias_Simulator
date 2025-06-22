@@ -17,13 +17,15 @@ MonoBehaviour:
     country on Earth. \n\nTourists describe it as \u201Cmeh\u201D while critics point
     out that Genericstan has no international holidays, no global exports, and not
     a single historical event of note. \n\nAlthough one man from East Genericstan
-    claimed the poll was \u201Cunfair,\u201D citing a recent car alarm and a mailbox
-    painted teal, they admitted, \u201CI just want something to happen.\u201D"
+    claimed the poll was \u201Cunfair,\u201D citing a recent car alarm but later
+    admitted, \u201CNothing ever happens...\u201D"
   image: {fileID: 0}
-  isApproved: 0
-  isReviewed: 0
-  trustImpact: 0
+  isApproved: 1
+  isReviewed: 1
+  trustImpact: -3
   perceptionImpact: 0
   engagementImpact: 1
   revenueImpact: 0
+  paulSupportImpact: 0
+  scientistSupportImpact: 0
   unlockConditions: []

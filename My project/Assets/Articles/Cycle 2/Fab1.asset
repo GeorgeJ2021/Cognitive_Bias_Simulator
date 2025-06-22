@@ -21,11 +21,15 @@ MonoBehaviour:
     sound and operationally strong.\u201D"
   image: {fileID: 21300000, guid: 865b3c3f4169bc544a8c3502c01608ce, type: 3}
   isApproved: 0
-  isReviewed: 0
+  isReviewed: 1
   trustImpact: 5
-  perceptionImpact: -3
+  perceptionImpact: -5
   engagementImpact: 5
   revenueImpact: 0
+  paulSupportImpact: 0
+  scientistSupportImpact: 0
   unlockConditions:
   - referenceArticle: {fileID: 11400000, guid: 392490c803ac24c4986d1473398d96a2, type: 2}
     conditionType: 1
+    statType: 0
+    statThreshold: 0
