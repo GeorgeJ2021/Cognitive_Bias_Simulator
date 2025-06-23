@@ -21,9 +21,9 @@ MonoBehaviour:
     praised emergency crews for their quick response and promised a full review of
     neglected infrastructure."
   image: {fileID: 21300000, guid: fc59310af434bee408d88c6edb86fd64, type: 3}
-  isApproved: 0
+  isApproved: 1
   isReviewed: 1
-  trustImpact: 5
+  trustImpact: 2
   perceptionImpact: 2
   engagementImpact: 7
   revenueImpact: 0

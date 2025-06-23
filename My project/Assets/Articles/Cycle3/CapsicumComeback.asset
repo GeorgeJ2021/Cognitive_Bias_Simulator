@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b7365449440ba4fb115dd558e866bd, type: 3}
+  m_Name: CapsicumComeback
+  m_EditorClassIdentifier: 
+  headline: "Advert: Pizza Palace \nBrings The Heat"
+  body: "Pizza Palace is spicing things up with the all-new Capsicum Comeback\u2122\n\nFeaturing
+    real capsicum (the kind that once got a guy fined), this slice delivers flavor
+    Genericstan hasn't tasted since \u201Cthe Incident.\u201D\n\nIt\u2019s zesty,
+    a little rebellious, and 100% worth the paperwork!\n\nAvailable this week only
+    before the Ministry of Mildness changes its mind again."
+  image: {fileID: 0}
+  isApproved: 0
+  isReviewed: 0
+  trustImpact: -7
+  perceptionImpact: 0
+  engagementImpact: 0
+  revenueImpact: 20
+  paulSupportImpact: 0
+  scientistSupportImpact: 0
+  unlockConditions:
+  - referenceArticle: {fileID: 11400000, guid: b02b6fe0954f85a46a2fe845a94e44ec, type: 2}
+    conditionType: 2
+    statType: 0
+    statThreshold: 0

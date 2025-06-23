@@ -24,8 +24,8 @@ MonoBehaviour:
     Civic stuff, too.\u201D"
   image: {fileID: 0}
   isApproved: 0
-  isReviewed: 0
-  trustImpact: 5
+  isReviewed: 1
+  trustImpact: 0
   perceptionImpact: 5
   engagementImpact: 5
   revenueImpact: 0

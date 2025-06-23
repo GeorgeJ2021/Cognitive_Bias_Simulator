@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b7365449440ba4fb115dd558e866bd, type: 3}
+  m_Name: WhistleBlower
+  m_EditorClassIdentifier: 
+  headline: 'FabriKator WhistleBlower
+
+    Questions Contracts'
+  body: "A FabriKator employee has come forward, citing \u201Cunusual spending patterns\u201D
+    and vague infrastructure contracts.\n\n\u201CEquipment was delivered before anything
+    was officially approved,\u201D the whistleblower said, pointing to a recent firestation
+    upgrade as one example.\n\nThe company denies wrongdoing, calling the process
+    \u201Cstandard and community-focused.\u201D"
+  image: {fileID: 0}
+  isApproved: 1
+  isReviewed: 1
+  trustImpact: 5
+  perceptionImpact: -5
+  engagementImpact: 7
+  revenueImpact: 0
+  paulSupportImpact: 0
+  scientistSupportImpact: 0
+  unlockConditions: []

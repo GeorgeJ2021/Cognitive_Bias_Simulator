@@ -21,9 +21,9 @@ MonoBehaviour:
     to lax enforcement. Whatever the cause, petty crime is becoming a growing concern
     for the neighborhood."
   image: {fileID: 0}
-  isApproved: 0
+  isApproved: 1
   isReviewed: 1
-  trustImpact: 7
+  trustImpact: 5
   perceptionImpact: -7
   engagementImpact: 6
   revenueImpact: 0

@@ -10,8 +10,7 @@ public class StatsManager : MonoBehaviour
     public int publicPerception = 50;
     public int engagement = 0;
 
-    public int paulPopularity = 0;
-    public int scientistPopularity = 0;
+
 
     public float baseRevenue = 0f;
     public float adRevenue = 0f;
@@ -25,10 +24,15 @@ public class StatsManager : MonoBehaviour
     public Button viewFullStatsButton;
     public Button closeFullStatsButton;
 
+    [Header("Stats Text fields")]
     public TMP_Text trustText;
     public TMP_Text perceptionText;
     public TMP_Text engagementText;
     public TMP_Text revenueText;
+
+    [Header("Popularity")]
+    public int paulPopularity = 0;
+    public int scientistPopularity = 0;
 
     void Start()
     {

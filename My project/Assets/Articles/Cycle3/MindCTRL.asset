@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39b7365449440ba4fb115dd558e866bd, type: 3}
   m_Name: MindCTRL
   m_EditorClassIdentifier: 
-  headline: "Mad Scientist invents Mind \nControl, Cures Dementia"
+  headline: "Mad Scientist Invents Mind \nControl, Cures Dementia"
   body: "Originally designed to control voters, the Mad Scientist's device instead
     sparked a miraculous recovery in an elderly test subject, who now recalls long-lost
     memories with astonishing clarity.\n\n\u201CI picked him because older minds
@@ -22,9 +22,9 @@ MonoBehaviour:
     family says they\u2019re grateful to the Scientist."
   image: {fileID: 21300000, guid: 3930d9f6ae4ce3844ac7a14ac3414131, type: 3}
   isApproved: 0
-  isReviewed: 0
-  trustImpact: 6
-  perceptionImpact: 3
+  isReviewed: 1
+  trustImpact: 3
+  perceptionImpact: 6
   engagementImpact: 7
   revenueImpact: 0
   paulSupportImpact: 0

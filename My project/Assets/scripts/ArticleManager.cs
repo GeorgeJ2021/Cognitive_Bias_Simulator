@@ -61,7 +61,9 @@ public class ArticleManager : MonoBehaviour
     public void LoadCycle(int index)
     {
         ClearButtons();
-        approvedArticles.Clear(); 
+        approvedArticles.Clear();
+        articleHeadline.text = " ";
+        articleBody.text = " ";
         UpdatePublishButton();
         currentCycleIndex = index;
 

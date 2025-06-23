@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39b7365449440ba4fb115dd558e866bd, type: 3}
   m_Name: Bees
   m_EditorClassIdentifier: 
-  headline: "Pesticide overuse endangers \nlocal bee population"
+  headline: "Pesticide Overuse \nEndangers Bee Population"
   body: "A new study confirms that excessive pesticide use in farms has decimated
     over 40% of the regional bee population.\n\n\u201CThis is bad. Like, crop-failure-level
     bad,\u201D warns ecologists. \n\nDespite warnings for years, officials admitted
@@ -20,9 +20,9 @@ MonoBehaviour:
     Agriculture has issued a statement urging farmers to \u201Cmaybe try spraying
     a little less, or not directly onto the beehives.\u201D"
   image: {fileID: 0}
-  isApproved: 0
-  isReviewed: 0
-  trustImpact: 4
+  isApproved: 1
+  isReviewed: 1
+  trustImpact: 2
   perceptionImpact: -6
   engagementImpact: 5
   revenueImpact: 0
