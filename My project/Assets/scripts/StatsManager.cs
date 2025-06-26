@@ -58,15 +58,21 @@ public class StatsManager : MonoBehaviour
 
     public void UpdateEngagement()
     {
-        float baseEngagement = engagement;
-        float trustModifier = (publicTrust - 50f) / 50f * publicTrustEffectOnEngagement;
-        float perceptionModifier = (publicPerception - 50f) / 50f * publicPerceptionEffectOnEngagement;
-
-        float finalEngagement = baseEngagement + (baseEngagement * (trustModifier + perceptionModifier));
-        engagement = Mathf.Clamp((int)finalEngagement, 0, 100);
-
+        CalculateRevEng(engagement, publicTrust, publicPerception);
         UpdateRevenue();
     }
+
+    public int CalculateRevEng(int Engagement, int Trust, int Perception)
+    {
+        float baseEngagement = Engagement;
+        float trustModifier = (Trust - 50f) / 50f * publicTrustEffectOnEngagement;
+        float perceptionModifier = (Perception - 50f) / 50f * publicPerceptionEffectOnEngagement;
+
+        float finalEngagement = baseEngagement + (baseEngagement * (trustModifier + perceptionModifier));
+        Engagement = Mathf.Clamp((int)finalEngagement, 0, 100);
+        return Engagement;
+    }
+
     public void UpdateStatsDisplay()
     {
         trustText.text = publicTrust.ToString();

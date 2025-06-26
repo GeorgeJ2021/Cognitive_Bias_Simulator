@@ -190,6 +190,8 @@ public class ArticleManager : MonoBehaviour
             revenueSum += article.revenueImpact;
         }
 
+        revenueSum += (statsManager.CalculateRevEng(engagementSum,trustSum,perceptionSum)*5);
+
         publishPreviewText.text =
             $"<b>Projected Changes:</b>\n" +
             $"Public Trust: {statsManager.publicTrust} {FormatImpact(trustSum)}\n" +
