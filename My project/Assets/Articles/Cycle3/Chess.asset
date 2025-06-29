@@ -18,9 +18,9 @@ MonoBehaviour:
     just winged it,\u201D Elliot said, still munching a granola bar.\n\nExperts are
     baffled. Pavlov has not responded, except to quietly uninstall his chess app."
   image: {fileID: 0}
-  isApproved: 1
+  isApproved: 0
   isReviewed: 1
-  trustImpact: -5
+  trustImpact: -7
   perceptionImpact: 0
   engagementImpact: 4
   revenueImpact: 0

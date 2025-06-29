@@ -18,9 +18,9 @@ MonoBehaviour:
     zesty, a little rebellious, and 100% worth the paperwork!\n\nAvailable this week
     only before the Ministry of Mildness changes its mind again."
   image: {fileID: 21300000, guid: 66d2758b0ef89a14595de1e548bbba61, type: 3}
-  isApproved: 0
-  isReviewed: 0
-  trustImpact: -7
+  isApproved: 1
+  isReviewed: 1
+  trustImpact: -8
   perceptionImpact: 0
   engagementImpact: 0
   revenueImpact: 20

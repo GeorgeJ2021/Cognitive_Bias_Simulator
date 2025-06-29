@@ -20,10 +20,13 @@ MonoBehaviour:
     \n\nHowever, local authorities have suggested the phenomenon could be explained
     by a combination of atmospheric conditions and a commercial drone\u2019s unusual
     flight pattern.\n\n"
+  image: {fileID: 0}
   isApproved: 0
-  isReviewed: 0
-  trustImpact: -5
+  isReviewed: 1
+  trustImpact: -7
   perceptionImpact: 0
   engagementImpact: 7
   revenueImpact: 0
+  paulSupportImpact: 0
+  scientistSupportImpact: 0
   unlockConditions: []

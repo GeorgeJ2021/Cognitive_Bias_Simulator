@@ -20,11 +20,11 @@ MonoBehaviour:
     but reports cravings for raw meat.\n\nDespite objections, locals now call him
     a hero and is now a leading candidate for mayor."
   image: {fileID: 21300000, guid: 077ff303c600dae4793433bf5551d708, type: 3}
-  isApproved: 1
+  isApproved: 0
   isReviewed: 1
   trustImpact: 5
   perceptionImpact: 7
-  engagementImpact: 10
+  engagementImpact: 8
   revenueImpact: 0
   paulSupportImpact: 0
   scientistSupportImpact: 1

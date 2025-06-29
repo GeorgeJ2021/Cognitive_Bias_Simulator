@@ -131,7 +131,7 @@ public class ArticleManager : MonoBehaviour
     }
     public void ApproveArticle()
     {
-         currentArticle.isApproved = true;
+        currentArticle.isApproved = true;
         currentArticle.isReviewed = true;
         Debug.Log("Approved");
         if (!approvedArticles.Contains(currentArticle))
@@ -190,14 +190,22 @@ public class ArticleManager : MonoBehaviour
             revenueSum += article.revenueImpact;
         }
 
-        revenueSum += (statsManager.CalculateRevEng(engagementSum,trustSum,perceptionSum)*5);
+        int simulatedTrust = statsManager.publicTrust + trustSum;
+        int simulatedPerception = statsManager.publicPerception + perceptionSum;
+        int simulatedEngagement = statsManager.engagement + engagementSum;
+
+        int projectedEngagement = statsManager.CalculateRevEng(simulatedEngagement,simulatedTrust,
+        simulatedPerception);
+
+        float projectedRevenue = (projectedEngagement * 3.0f) + revenueSum;
+        Debug.Log("project revenue is: "+ projectedRevenue);
 
         publishPreviewText.text =
             $"<b>Projected Changes:</b>\n" +
             $"Public Trust: {statsManager.publicTrust} {FormatImpact(trustSum)}\n" +
             $"Public Perception: {statsManager.publicPerception} {FormatImpact(perceptionSum)}\n" +
             $"Engagement: {statsManager.engagement} {FormatImpact(engagementSum)}\n" +
-            $"Revenue: {statsManager.totalRevenue:F0} {FormatImpact((int)revenueSum)}";
+            $"Revenue: {statsManager.totalRevenue:F0} {FormatImpact((int)projectedRevenue)}";
 
         publishPanel.SetActive(true);
     }
@@ -224,12 +232,27 @@ public class ArticleManager : MonoBehaviour
 
     void ApplyApprovedArticleEffects()
     {
+        int totalTrustImpact = 0;
+        int totalPerceptionImpact = 0;
+        int totalEngagementImpact = 0;
+        int totalPaulSupportImpact = 0;
+        int totalScientistSupportImpact = 0;
+        float totalRevenueImpact = 0f;
+
         foreach (var article in approvedArticles)
         {
-            currentArticle.isApproved = true;
-            statsManager.ApplyArticleEffects(article.trustImpact, article.perceptionImpact, article.engagementImpact, article.paulSupportImpact, article.scientistSupportImpact);
-            statsManager.AddAdRevenue(article.revenueImpact);
+            totalTrustImpact += article.trustImpact;
+            totalPerceptionImpact += article.perceptionImpact;
+            totalEngagementImpact += article.engagementImpact;
+            totalPaulSupportImpact += article.paulSupportImpact;
+            totalScientistSupportImpact += article.scientistSupportImpact;
+            totalRevenueImpact += article.revenueImpact;
+
+            article.isApproved = true;
         }
+        statsManager.ApplyArticleEffects(totalTrustImpact, totalPerceptionImpact, totalEngagementImpact, totalPaulSupportImpact, totalScientistSupportImpact);
+        statsManager.AddAdRevenue(totalRevenueImpact);
+
         publishPanel.SetActive(false);
         Debug.Log("Published. Stats updated.");
         LoadNextCycle();

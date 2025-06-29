@@ -10,15 +10,13 @@ public class StatsManager : MonoBehaviour
     public int publicPerception = 50;
     public int engagement = 0;
 
-
-
     public float baseRevenue = 0f;
     public float adRevenue = 0f;
 
     [Range(-1f, 1f)] public float publicTrustEffectOnEngagement = 0.1f;
     [Range(-1f, 1f)] public float publicPerceptionEffectOnEngagement = 0.2f;
 
-    public float totalRevenue => baseRevenue + adRevenue;
+    public float totalRevenue;
 
     public GameObject FullStats;
     public Button viewFullStatsButton;
@@ -47,7 +45,7 @@ public class StatsManager : MonoBehaviour
     {
         publicTrust = Mathf.Clamp(publicTrust + trustChange, 0, 100);
         publicPerception = Mathf.Clamp(publicPerception + perceptionChange, 0, 100);
-        engagement = Mathf.Clamp(engagement + engagementChange, 0, 100);
+        engagement += engagementChange;
 
         paulPopularity += paulSupportImpact;
         scientistPopularity += scientistSupportImpact;
@@ -58,7 +56,7 @@ public class StatsManager : MonoBehaviour
 
     public void UpdateEngagement()
     {
-        CalculateRevEng(engagement, publicTrust, publicPerception);
+        engagement = CalculateRevEng(engagement, publicTrust, publicPerception);
         UpdateRevenue();
     }
 
@@ -83,12 +81,13 @@ public class StatsManager : MonoBehaviour
 
     public void UpdateRevenue()
     {
-        baseRevenue = engagement * 5.0f;
+        baseRevenue = engagement * 3.0f;
+        totalRevenue += baseRevenue;
     }
 
     public void AddAdRevenue(float amount)
     {
-        adRevenue += amount;
+        totalRevenue += amount;
     }
 
     public void RemoveAdRevenue(float amount)
