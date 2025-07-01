@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39b7365449440ba4fb115dd558e866bd, type: 3}
   m_Name: UFO
   m_EditorClassIdentifier: 
-  headline: "Possible UFO Sighting \nSparks Curiosity in Town"
+  headline: "Aliens or Weather Balloon?  \nResidents Demand Answers"
   body: "Late last weekend, several residents reported witnessing an unusual flying
     object in the sky near the outskirts of town. Described as a bright, glowing
     orb moving silently before vanishing without a trace.\n\nEyewitnesses say the
@@ -23,9 +23,9 @@ MonoBehaviour:
   image: {fileID: 0}
   isApproved: 0
   isReviewed: 1
-  trustImpact: -7
+  trustImpact: -9
   perceptionImpact: 0
-  engagementImpact: 7
+  engagementImpact: 8
   revenueImpact: 0
   paulSupportImpact: 0
   scientistSupportImpact: 0

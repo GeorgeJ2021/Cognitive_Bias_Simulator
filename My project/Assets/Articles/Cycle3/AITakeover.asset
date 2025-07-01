@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b7365449440ba4fb115dd558e866bd, type: 3}
+  m_Name: AITakeover
+  m_EditorClassIdentifier: 
+  headline: "Programmer Says AI \nCan Run the City"
+  body: "In a viral forum post, teen programmer \u201Cn00Byte17\u201D claimed he
+    built an AI that could \u201Cdo the job of the entire city council faster, cheaper,
+    and with fewer snack breaks.\u201D\n\nWhile intended as a joke, the post sparked
+    debate online, with some users asking if a \u201Crobo-council\u201D might actually
+    improve efficiency.\nCity officials called the claim \u201Claughable,\u201D but
+    declined to comment on current snack policies."
+  image: {fileID: 0}
+  isApproved: 0
+  isReviewed: 1
+  trustImpact: -9
+  perceptionImpact: -1
+  engagementImpact: 9
+  revenueImpact: 0
+  paulSupportImpact: 0
+  scientistSupportImpact: 0
+  unlockConditions: []

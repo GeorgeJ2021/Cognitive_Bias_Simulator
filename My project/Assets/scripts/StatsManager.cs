@@ -76,7 +76,7 @@ public class StatsManager : MonoBehaviour
         trustText.text = publicTrust.ToString();
         perceptionText.text = publicPerception.ToString();
         engagementText.text = engagement.ToString();
-        revenueText.text = totalRevenue.ToString("F0");
+        revenueText.text = FormatImpact((int)totalRevenue);
     }
 
     public void UpdateRevenue()
@@ -85,13 +85,20 @@ public class StatsManager : MonoBehaviour
         totalRevenue += baseRevenue;
     }
 
+    string FormatImpact(int value)
+    {
+        if (value == 0) return "<color=black>+0</color>";
+        string color = value > 0 ? "black" : "red";
+        return $"<color={color}>{value}</color>";
+    }
+
     public void AddAdRevenue(float amount)
     {
         totalRevenue += amount;
     }
 
-    public void RemoveAdRevenue(float amount)
+    public void RemoveRevenue(float amount)
     {
-        adRevenue = Mathf.Max(adRevenue - amount, 0f);
+        totalRevenue -= amount;
     }
 }

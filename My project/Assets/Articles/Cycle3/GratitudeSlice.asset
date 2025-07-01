@@ -24,7 +24,7 @@ MonoBehaviour:
   isReviewed: 0
   trustImpact: -7
   perceptionImpact: 0
-  engagementImpact: 0
+  engagementImpact: -9
   revenueImpact: 20
   paulSupportImpact: 0
   scientistSupportImpact: 0

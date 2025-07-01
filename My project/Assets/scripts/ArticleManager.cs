@@ -169,6 +169,15 @@ public class ArticleManager : MonoBehaviour
             }
         }
     }
+
+    public float ExpenseCal(int engagement, int publicTrust)
+    {
+        float baseExpense = 50f;
+        float cycleExpense = baseExpense +
+        (engagement * 0.4f) + (publicTrust * 0.2f);
+
+        return (cycleExpense);
+    }
     public void OnPublishClicked()
     {
         if (approvedArticles.Count < 4)
@@ -194,18 +203,21 @@ public class ArticleManager : MonoBehaviour
         int simulatedPerception = statsManager.publicPerception + perceptionSum;
         int simulatedEngagement = statsManager.engagement + engagementSum;
 
-        int projectedEngagement = statsManager.CalculateRevEng(simulatedEngagement,simulatedTrust,
+        int projectedEngagement = statsManager.CalculateRevEng(simulatedEngagement, simulatedTrust,
         simulatedPerception);
 
         float projectedRevenue = (projectedEngagement * 3.0f) + revenueSum;
-        Debug.Log("project revenue is: "+ projectedRevenue);
+        Debug.Log("project revenue is: " + projectedRevenue);
+
+        float projectedExpenses = ExpenseCal(projectedEngagement, simulatedTrust) * -1;
 
         publishPreviewText.text =
             $"<b>Projected Changes:</b>\n" +
             $"Public Trust: {statsManager.publicTrust} {FormatImpact(trustSum)}\n" +
             $"Public Perception: {statsManager.publicPerception} {FormatImpact(perceptionSum)}\n" +
             $"Engagement: {statsManager.engagement} {FormatImpact(engagementSum)}\n" +
-            $"Revenue: {statsManager.totalRevenue:F0} {FormatImpact((int)projectedRevenue)}";
+            $"Revenue: {statsManager.totalRevenue:F0} {FormatImpact((int)projectedRevenue)}\n" +
+            $"Expected Expense: {FormatImpact((int)projectedExpenses)}";
 
         publishPanel.SetActive(true);
     }
@@ -252,6 +264,9 @@ public class ArticleManager : MonoBehaviour
         }
         statsManager.ApplyArticleEffects(totalTrustImpact, totalPerceptionImpact, totalEngagementImpact, totalPaulSupportImpact, totalScientistSupportImpact);
         statsManager.AddAdRevenue(totalRevenueImpact);
+        float cycleExpense = ExpenseCal(statsManager.engagement, statsManager.publicTrust);
+
+        statsManager.RemoveRevenue(cycleExpense);
 
         publishPanel.SetActive(false);
         Debug.Log("Published. Stats updated.");
