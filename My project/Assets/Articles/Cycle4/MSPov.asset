@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b7365449440ba4fb115dd558e866bd, type: 3}
+  m_Name: MSPov
+  m_EditorClassIdentifier: 
+  headline: "Mad Scientist Proposes \n\u201CSuper Concrete\u201D"
+  body: "In the heated public debate over infrastructure safety, the local Mad Scientist
+    stunned viewers by proposing a new material ,called \"super concrete\", that
+    emits a loud, Dinosaur-like scream moments before collapse.\n\n\u201CIt\u2019s
+    simple,\u201D he explained, arms flailing. \u201CIf it screams, you run.\"\n\nWhen
+    Teshun pressed about feasibility, costs, or testing, the Mad Scientist waved
+    off concerns, calling Paul E. Teshun\u2019s alternatives as \u201CNeolithic thinking\u201D."
+  image: {fileID: 21300000, guid: 3214b2565cf04074fba1f36eff7c528c, type: 3}
+  isApproved: 0
+  isReviewed: 0
+  trustImpact: 0
+  perceptionImpact: 0
+  engagementImpact: 0
+  revenueImpact: 0
+  paulSupportImpact: 0
+  scientistSupportImpact: 0
+  unlockConditions: []

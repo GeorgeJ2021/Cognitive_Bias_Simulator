@@ -25,7 +25,7 @@ MonoBehaviour:
   trustImpact: -7
   perceptionImpact: 0
   engagementImpact: -9
-  revenueImpact: 20
+  revenueImpact: 100
   paulSupportImpact: 0
   scientistSupportImpact: 0
   unlockConditions:

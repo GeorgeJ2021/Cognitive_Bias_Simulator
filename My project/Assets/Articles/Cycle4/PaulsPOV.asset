@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b7365449440ba4fb115dd558e866bd, type: 3}
+  m_Name: PaulsPOV
+  m_EditorClassIdentifier: 
+  headline: "Paul E. Teshun Rejects \n\u201CSuper Concrete\u201D"
+  body: "Mayoral candidate Paul E. Teshun dismissed the Mad Scientist\u2019s super
+    concrete, a type of concrete that screams before collapsing, as \u201Ca gimmick\u201D
+    that distracts from the real issue: long-term safety.\n\nIn response, Teshun
+    argued, \u201CThis city doesn\u2019t need last-minute warnings. It needs infrastructure
+    that never reaches that point.\u201D \n\nTeshun outlined a detailed plan for
+    preventive maintenance, inspections, and material upgrades with some involving
+    partnerships with FabriKator, to address aging structures responsibly."
+  image: {fileID: 0}
+  isApproved: 0
+  isReviewed: 0
+  trustImpact: 0
+  perceptionImpact: 0
+  engagementImpact: 0
+  revenueImpact: 0
+  paulSupportImpact: 0
+  scientistSupportImpact: 0
+  unlockConditions: []
