@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b7365449440ba4fb115dd558e866bd, type: 3}
+  m_Name: POG
+  m_EditorClassIdentifier: 
+  headline: 'Genericstan President
+
+    Endorses Mad Scientist ?'
+  body: "In a recent interview, the President of Genericstan expressed support for
+    the Mad Scientist, remarking with a laugh, \u201CHe\u2019s got some good ideas,
+    especially the one about mind control.\u201D\n\nThe comment has raised some speculation
+    about foreign backing for the city\u2019s most unpredictable mayoral candidate.\n\nPaul
+    E. Teshun claimed the president was \u201C unserious.\u201D While the Mad Scientist
+    responded, \u201CI don\u2019t even know who that is.\u201D"
+  image: {fileID: 0}
+  isApproved: 0
+  isReviewed: 0
+  trustImpact: -6
+  perceptionImpact: 0
+  engagementImpact: 7
+  revenueImpact: 0
+  paulSupportImpact: 0
+  scientistSupportImpact: 1
+  unlockConditions: []

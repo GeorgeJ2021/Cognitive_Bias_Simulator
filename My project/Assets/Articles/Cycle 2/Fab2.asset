@@ -13,15 +13,16 @@ MonoBehaviour:
   m_Name: Fab2
   m_EditorClassIdentifier: 
   headline: "Fabrikator stock remains \nstable amid rumors "
-  body: "FabriKator shares ticked up 0.6% after CEO Fabio Katel dismissed recent
-    allegations as \u201Cpolitically motivated noise.\u201D\n\nKatel instead highlighted
-    new tech for firestation upgrades, like 3D-printed parts and \" AI-powered \"
-    electrical checks, and praised mayoral candidate Paul E. Teshun\u2019s plan as
-    \u201Cfunctional leadership we need.\u201D"
+  body: "FabriKator shares edged up 0.6% after CEO Fabio Katel downplayed recent
+    allegations as \u201Cpolitically motivated noise.\u201D\n\nKatel emphasized the
+    company\u2019s latest innovations, including 3D-printed components and AI-assisted
+    electrical inspections aimed at improving the city's infrastructure.\n\nWhile
+    Katel remains under investigation, he expressed optimism about the city\u2019s
+    leadership plans focused on practical solutions for public safety."
   image: {fileID: 0}
   isApproved: 0
   isReviewed: 0
-  trustImpact: 5
+  trustImpact: 2
   perceptionImpact: 0
   engagementImpact: 3
   revenueImpact: 0

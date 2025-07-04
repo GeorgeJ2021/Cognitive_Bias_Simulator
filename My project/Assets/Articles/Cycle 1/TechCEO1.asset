@@ -21,10 +21,13 @@ MonoBehaviour:
     charges, blaming \u201Caccounting errors\u201D and accusing investigators of
     political motivation. \n\nThe public remains divided as some defend Katel as
     a job-creator and innovator while others see a powerful figure dodging justice."
+  image: {fileID: 0}
   isApproved: 1
   isReviewed: 1
-  trustImpact: 5
+  trustImpact: 7
   perceptionImpact: -5
   engagementImpact: 10
   revenueImpact: 0
+  paulSupportImpact: 0
+  scientistSupportImpact: 0
   unlockConditions: []

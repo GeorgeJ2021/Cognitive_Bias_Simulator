@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b7365449440ba4fb115dd558e866bd, type: 3}
+  m_Name: whostleblower2
+  m_EditorClassIdentifier: 
+  headline: "Whistleblower Backs \nDown Under Pressure"
+  body: "The FabriKator employee who recently sparked controversy by reporting \u201Cunusual
+    spending patterns\u201D at the company has formally retracted their statement.\n\nFriends
+    and colleagues say the whistleblower has been under intense pressure since the
+    allegations became public, though no official explanation has been provided.\n\nFabriKator
+    continues to deny any wrongdoing, dismissing the accusations as \u201Cmisunderstandings.\u201D"
+  image: {fileID: 0}
+  isApproved: 0
+  isReviewed: 0
+  trustImpact: 5
+  perceptionImpact: 0
+  engagementImpact: 6
+  revenueImpact: 0
+  paulSupportImpact: 0
+  scientistSupportImpact: 0
+  unlockConditions:
+  - referenceArticle: {fileID: 11400000, guid: cc01dbdaa5bcf7644a6fe9a0acc79f0f, type: 2}
+    conditionType: 1
+    statType: 0
+    statThreshold: 0
