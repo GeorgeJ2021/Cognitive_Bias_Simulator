@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b7365449440ba4fb115dd558e866bd, type: 3}
+  m_Name: advertWhat
+  m_EditorClassIdentifier: 
+  headline: "Advert: What Have \nYou Done?"
+  body: "He won. The Mad Scientist is mayor. And you let it happen.\n\nThe city won\u2019t
+    forget. And neither will we.\n\nBut hey, at least dinner\u2019s still predictable!
+    This week only: Buy any large pizza and get a second one half-off. Because someone
+    has to make sane decisions around here."
+  image: {fileID: 21300000, guid: 66d2758b0ef89a14595de1e548bbba61, type: 3}
+  isApproved: 0
+  isReviewed: 0
+  trustImpact: -5
+  perceptionImpact: -5
+  engagementImpact: 1
+  revenueImpact: 0
+  paulSupportImpact: 0
+  scientistSupportImpact: 0
+  unlockConditions:
+  - referenceArticle: {fileID: 0}
+    conditionType: 7
+    statType: 4
+    statThreshold: 0

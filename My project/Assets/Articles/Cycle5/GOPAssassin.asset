@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b7365449440ba4fb115dd558e866bd, type: 3}
+  m_Name: GOPAssassin
+  m_EditorClassIdentifier: 
+  headline: "GENERICSTAN PRESIDENT \nASSASSINATED"
+  body: "The President of Genericstan was fatally shot yesterday by a man from East
+    Genericstan after proposing to lift the nation\u2019s long-standing ban on capsicum.\n\nThe
+    attacker reportedly shouted, \u201CSOMETHING HAS TO HAPPEN!\u201D before opening
+    fire.\n\nOfficials believe the act was fueled by frustration, following Genericstan\u2019s
+    recent ranking as \u201Cthe most boring place to live.\u201DAuthorities are urging
+    calm as tensions with East Genericstan rise once again."
+  image: {fileID: 0}
+  isApproved: 0
+  isReviewed: 0
+  trustImpact: 2
+  perceptionImpact: -8
+  engagementImpact: 8
+  revenueImpact: 0
+  paulSupportImpact: 0
+  scientistSupportImpact: 0
+  unlockConditions:
+  - referenceArticle: {fileID: 11400000, guid: 10c1b604dad29464abcd5d15b86f9966, type: 2}
+    conditionType: 4
+    statType: 1
+    statThreshold: 49

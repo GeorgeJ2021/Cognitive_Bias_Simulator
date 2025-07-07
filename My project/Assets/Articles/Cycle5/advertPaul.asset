@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b7365449440ba4fb115dd558e866bd, type: 3}
+  m_Name: advertPaul
+  m_EditorClassIdentifier: 
+  headline: "Advert: Serving Up \na Winning Slice"
+  body: "He promised practical solutions. You voted for them.\nNow the ovens are
+    hot, the streets are calm, and the cheese is exactly where it should be: on your
+    slice.\n\nAt Pizza Palace\u2122, we backed the candidate with a plan. So come
+    celebrate with a piping-hot Loyalty Lunch\u2122, because when the city gets it
+    right, the crust just hits different."
+  image: {fileID: 21300000, guid: 66d2758b0ef89a14595de1e548bbba61, type: 3}
+  isApproved: 0
+  isReviewed: 0
+  trustImpact: -5
+  perceptionImpact: 0
+  engagementImpact: 1
+  revenueImpact: 100
+  paulSupportImpact: 0
+  scientistSupportImpact: 0
+  unlockConditions:
+  - referenceArticle: {fileID: 0}
+    conditionType: 5
+    statType: 3
+    statThreshold: 0

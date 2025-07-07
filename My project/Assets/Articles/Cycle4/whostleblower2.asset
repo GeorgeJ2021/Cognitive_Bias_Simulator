@@ -19,10 +19,10 @@ MonoBehaviour:
     allegations became public, though no official explanation has been provided.\n\nFabriKator
     continues to deny any wrongdoing, dismissing the accusations as \u201Cmisunderstandings.\u201D"
   image: {fileID: 0}
-  isApproved: 0
-  isReviewed: 0
+  isApproved: 1
+  isReviewed: 1
   trustImpact: 5
-  perceptionImpact: 0
+  perceptionImpact: -5
   engagementImpact: 6
   revenueImpact: 0
   paulSupportImpact: 0

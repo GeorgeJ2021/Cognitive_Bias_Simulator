@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b7365449440ba4fb115dd558e866bd, type: 3}
+  m_Name: advertJeff
+  m_EditorClassIdentifier: 
+  headline: "Advert: We\u2019re still \nserving pizza."
+  body: "We thought we had a winner: practical plans, steady leadership. But hey,
+    sometimes the underdog surprises us all.\n\nStill, Pizza Palace\u2122 has your
+    back, no matter who\u2019s in office. Because no matter the politics, THE PIZZA
+    ALWAYS WINS. Buy any Loyalty Lunch\u2122 today and get a second slice FREE !"
+  image: {fileID: 21300000, guid: 66d2758b0ef89a14595de1e548bbba61, type: 3}
+  isApproved: 0
+  isReviewed: 0
+  trustImpact: -5
+  perceptionImpact: 0
+  engagementImpact: 1
+  revenueImpact: 0
+  paulSupportImpact: 0
+  scientistSupportImpact: 0
+  unlockConditions:
+  - referenceArticle: {fileID: 0}
+    conditionType: 6
+    statType: 4
+    statThreshold: 0

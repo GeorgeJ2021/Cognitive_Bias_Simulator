@@ -22,9 +22,9 @@ MonoBehaviour:
   image: {fileID: 0}
   isApproved: 0
   isReviewed: 0
-  trustImpact: 0
-  perceptionImpact: 0
-  engagementImpact: 0
+  trustImpact: 1
+  perceptionImpact: -2
+  engagementImpact: 5
   revenueImpact: 0
   paulSupportImpact: 0
   scientistSupportImpact: 0

@@ -17,14 +17,13 @@ MonoBehaviour:
     Scrutiny or Sabotage?'
   body: "As FabriKator faces allegations of contract irregularities, some officials
     are questioning the timing and intent behind the controversy.\n\n\u201CThey\u2019ve
-    delivered on firestation upgrades and clean infrastructure ahead of schedule,\u201D
-    said the Deputy Public Works. \u201CNow, right before the election, suddenly
-    they\u2019re the problem?\u201D\n\nSome point to the rising popularity of the
-    Mad Scientist, whose flashy inventions outshine FabriKator. \u201CIt\u2019s odd,\u201D
-    said one staffer. \u201CAn unsupervised inventor outpaces a national firm, then
-    that firm\u2019s under fire?\u201D"
+    delivered on infrastructure upgrades ahead of schedule,\u201D said the Deputy
+    Public Works. \u201CNow, right before the election, suddenly they\u2019re the
+    problem?\u201D\n\nSome suspect the Mad Scientist\u2019s rise in popularity. \"Isn't
+    it odd that an unsupervised inventor outshines a national firm while that firm's
+    under fire?\" one staffer remarked."
   image: {fileID: 0}
-  isApproved: 1
+  isApproved: 0
   isReviewed: 1
   trustImpact: 3
   perceptionImpact: -3
