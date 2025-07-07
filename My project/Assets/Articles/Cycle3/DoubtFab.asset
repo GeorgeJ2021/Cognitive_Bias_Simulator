@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b7365449440ba4fb115dd558e866bd, type: 3}
+  m_Name: DoubtFab
+  m_EditorClassIdentifier: 
+  headline: 'FabriKator faces
+
+    Scrutiny or Sabotage?'
+  body: "As FabriKator faces allegations of contract irregularities, some officials
+    are questioning the timing and intent behind the controversy.\n\n\u201CThey\u2019ve
+    delivered on firestation upgrades and clean infrastructure ahead of schedule,\u201D
+    said the Deputy Public Works. \u201CNow, right before the election, suddenly
+    they\u2019re the problem?\u201D\n\nSome point to the rising popularity of the
+    Mad Scientist, whose flashy inventions outshine FabriKator. \u201CIt\u2019s odd,\u201D
+    said one staffer. \u201CAn unsupervised inventor outpaces a national firm, then
+    that firm\u2019s under fire?\u201D"
+  image: {fileID: 0}
+  isApproved: 1
+  isReviewed: 1
+  trustImpact: 3
+  perceptionImpact: -3
+  engagementImpact: 6
+  revenueImpact: 0
+  paulSupportImpact: 0
+  scientistSupportImpact: 0
+  unlockConditions: []

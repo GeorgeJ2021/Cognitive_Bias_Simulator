@@ -22,10 +22,10 @@ MonoBehaviour:
   image: {fileID: 0}
   isApproved: 0
   isReviewed: 0
-  trustImpact: 4
-  perceptionImpact: 7
-  engagementImpact: 7
+  trustImpact: 2
+  perceptionImpact: 3
+  engagementImpact: 3
   revenueImpact: 0
-  paulSupportImpact: 0
-  scientistSupportImpact: 1
+  paulSupportImpact: 1
+  scientistSupportImpact: 0
   unlockConditions: []

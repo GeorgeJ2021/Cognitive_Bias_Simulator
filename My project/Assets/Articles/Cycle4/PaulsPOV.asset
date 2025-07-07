@@ -20,7 +20,7 @@ MonoBehaviour:
     that never reaches that point.\u201D \n\nTeshun outlined a detailed plan for
     preventive maintenance, inspections, and material upgrades with some involving
     partnerships with FabriKator, to address aging structures responsibly."
-  image: {fileID: 0}
+  image: {fileID: 21300000, guid: 75cc971c0c142d44aa661e99de0d01cc, type: 3}
   isApproved: 0
   isReviewed: 0
   trustImpact: 1

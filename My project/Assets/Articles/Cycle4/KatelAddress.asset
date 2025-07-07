@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b7365449440ba4fb115dd558e866bd, type: 3}
+  m_Name: KatelAddress
+  m_EditorClassIdentifier: 
+  headline: "Katel Responds \nto Tax Allegations"
+  body: "FabriKator CEO Fabio Katel addressed recent accusations of financial misconduct
+    during a press event today.\n\n\u201CWe\u2019ve cooperated fully,\u201D Katel
+    said when asked about ongoing investigations into alleged tax discrepancies.
+    \u201CThe city\u2019s priorities are shifting, and I\u2019m confident we\u2019ll
+    land on the right side of history.\u201D\n\nKatel declined to take further questions
+    and instead highlighed FabriKator\u2019s role in upcoming city projects."
+  image: {fileID: 0}
+  isApproved: 0
+  isReviewed: 0
+  trustImpact: 5
+  perceptionImpact: 0
+  engagementImpact: 6
+  revenueImpact: 0
+  paulSupportImpact: 0
+  scientistSupportImpact: 0
+  unlockConditions:
+  - referenceArticle: {fileID: 11400000, guid: cc01dbdaa5bcf7644a6fe9a0acc79f0f, type: 2}
+    conditionType: 2
+    statType: 0
+    statThreshold: 0
