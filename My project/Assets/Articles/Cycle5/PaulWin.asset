@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b7365449440ba4fb115dd558e866bd, type: 3}
+  m_Name: PaulWin
+  m_EditorClassIdentifier: 
+  headline: "PAUL E. TESHUN \nDECLARED NEW MAYOR\r\n"
+  body: "In a result that surprised no one, Paul E. Teshun has officially won the
+    mayoral race, securing just enough votes to edge out his more chaotic competitor.\n\nTeshun\u2019s
+    team celebrated the victory with a modest rooftop gathering, complete with soft
+    jazz, and several speeches about \"returning to sensible policy.\"\n\n\u201CThis
+    win isn\u2019t just for me,\u201D said Paul, moments after being declared mayor.
+    \u201CIt\u2019s for everyone who believes in practical solutions rather than
+    far fetched schemes.\u201D"
+  image: {fileID: 0}
+  isApproved: 0
+  isReviewed: 0
+  trustImpact: 0
+  perceptionImpact: 0
+  engagementImpact: 0
+  revenueImpact: 0
+  paulSupportImpact: 0
+  scientistSupportImpact: 0
+  unlockConditions:
+  - referenceArticle: {fileID: 0}
+    conditionType: 5
+    statType: 3
+    statThreshold: 0

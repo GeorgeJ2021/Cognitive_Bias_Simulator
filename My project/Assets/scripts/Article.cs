@@ -8,7 +8,10 @@ public enum ArticleUnlockConditionType
     IfApproved,
     IfRejected,
     IfStatGreaterThan,
-    IfStatLessThan
+    IfStatLessThan,
+    IfPaulMorePopular,
+    CheckEqualPopularity,       
+    IfScientistMorePopular
 }
 
 public enum StatType
@@ -74,6 +77,18 @@ public class Article : ScriptableObject
 
                 case ArticleUnlockConditionType.IfStatLessThan:
                     if (GetStatValue(stats, cond.statType) >= cond.statThreshold)
+                        return false;
+                    break;
+                case ArticleUnlockConditionType.IfPaulMorePopular:
+                    if (stats.paulPopularity <= stats.scientistPopularity)
+                        return false;
+                    break;
+                case ArticleUnlockConditionType.IfScientistMorePopular:
+                    if (stats.scientistPopularity <= stats.paulPopularity)
+                        return false;
+                    break;
+                case ArticleUnlockConditionType.CheckEqualPopularity:
+                    if (stats.paulPopularity != stats.scientistPopularity)
                         return false;
                     break;
             }

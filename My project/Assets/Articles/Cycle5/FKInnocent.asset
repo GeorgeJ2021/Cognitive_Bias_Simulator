@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b7365449440ba4fb115dd558e866bd, type: 3}
+  m_Name: FKInnocent
+  m_EditorClassIdentifier: 
+  headline: "Katel Cleared of \nAll Charges"
+  body: "FabriKator CEO Fabio Katel has been cleared of any wrongdoing following
+    a legal review into the company\u2019s infrastructure contracts.\n\nCity officials
+    stated that \u201Cno prosecutable evidence\u201D was found and that the case
+    had reached its natural conclusion. \n\nThe announcement came shortly after Katel
+    was seen attending Paul\u2019s election celebration, where he raised a toast
+    and addressed a small crowd regarding the future of the city."
+  image: {fileID: 0}
+  isApproved: 0
+  isReviewed: 0
+  trustImpact: 0
+  perceptionImpact: 0
+  engagementImpact: 0
+  revenueImpact: 0
+  paulSupportImpact: 0
+  scientistSupportImpact: 0
+  unlockConditions:
+  - referenceArticle: {fileID: 0}
+    conditionType: 5
+    statType: 4
+    statThreshold: 0

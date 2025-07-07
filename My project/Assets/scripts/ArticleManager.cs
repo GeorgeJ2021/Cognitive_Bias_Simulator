@@ -174,7 +174,7 @@ public class ArticleManager : MonoBehaviour
     {
         float baseExpense = 50f;
         float cycleExpense = baseExpense +
-        (engagement * 0.4f) + (publicTrust * 0.2f);
+        (engagement * 0.5f) + (publicTrust * 0.4f);
 
         return (cycleExpense);
     }
