@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b7365449440ba4fb115dd558e866bd, type: 3}
+  m_Name: PeopleVsFK
+  m_EditorClassIdentifier: 
+  headline: "More Voices Emerge \nin FabriKator Scandal"
+  body: "In the wake of recent scrutiny, multiple new whistleblowers have come forward
+    with claims against FabriKator and its former CEO, Fabio Katel.\n\n\u201CThere
+    were red flags for years,\u201D said one former logistics officer. \u201CBut
+    when I read that article about the firestation upgrade being approved before
+    the paperwork, something clicked. I realized I wasn\u2019t the only one who saw
+    it.\u201D\n\n\u201CWhatever pressure shut that first voice down, it won\u2019t
+    work this time,\u201D said another source."
+  image: {fileID: 0}
+  isApproved: 0
+  isReviewed: 0
+  trustImpact: 5
+  perceptionImpact: 2
+  engagementImpact: 5
+  revenueImpact: 0
+  paulSupportImpact: 0
+  scientistSupportImpact: 0
+  unlockConditions:
+  - referenceArticle: {fileID: 11400000, guid: cc01dbdaa5bcf7644a6fe9a0acc79f0f, type: 2}
+    conditionType: 1
+    statType: 0
+    statThreshold: 0
+  - referenceArticle: {fileID: 11400000, guid: cc01dbdaa5bcf7644a6fe9a0acc79f0f, type: 2}
+    conditionType: 7
+    statType: 0
+    statThreshold: 0

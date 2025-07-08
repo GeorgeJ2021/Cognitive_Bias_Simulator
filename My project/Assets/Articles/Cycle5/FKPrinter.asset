@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b7365449440ba4fb115dd558e866bd, type: 3}
+  m_Name: FKPrinter
+  m_EditorClassIdentifier: 
+  headline: "FabriKator Unveils \nNew 3D Printer"
+  body: "FabriKator has introduced its latest innovation: the F-Print Nova, a compact
+    industrial 3D printer engineered to rapidly produce housing materials, school
+    furniture, and emergency infrastructure.\n\nA company spokesperson called it
+    \u201Ca leap forward in local production,\u201D adding that the printer was built
+    with city-scale recovery and modernization in mind.\n\nFollowing months of controversy,
+    the launch appears aimed at restoring confidence in the embattled contractor\u2019s
+    future."
+  image: {fileID: 0}
+  isApproved: 0
+  isReviewed: 0
+  trustImpact: 5
+  perceptionImpact: 2
+  engagementImpact: 5
+  revenueImpact: 0
+  paulSupportImpact: 0
+  scientistSupportImpact: 0
+  unlockConditions:
+  - referenceArticle: {fileID: 11400000, guid: cc01dbdaa5bcf7644a6fe9a0acc79f0f, type: 2}
+    conditionType: 5
+    statType: 0
+    statThreshold: 0

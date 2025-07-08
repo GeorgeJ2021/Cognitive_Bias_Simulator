@@ -15,8 +15,8 @@ MonoBehaviour:
   headline: "Advert: What Have \nYou Done?"
   body: "He won. The Mad Scientist is mayor. And you let it happen.\n\nThe city won\u2019t
     forget. And neither will we.\n\nBut hey, at least dinner\u2019s still predictable!
-    This week only: Buy any large pizza and get a second one half-off. Because someone
-    has to make sane decisions around here."
+    \n\nThis week only: Buy any large pizza and get a second one half-off. Because
+    someone has to make sane decisions around here."
   image: {fileID: 21300000, guid: 66d2758b0ef89a14595de1e548bbba61, type: 3}
   isApproved: 0
   isReviewed: 0
