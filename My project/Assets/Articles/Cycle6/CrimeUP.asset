@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b7365449440ba4fb115dd558e866bd, type: 3}
+  m_Name: CrimeUP
+  m_EditorClassIdentifier: 
+  headline: "Petty Crime Getting \nOut of Control?"
+  body: "Petty thefts, break-ins, and public disturbances continue to rise, with
+    some neighborhoods reporting a 25% increase in just the last month.\n\n\u201CWe
+    lock up, but it doesn\u2019t seem to matter anymore,\u201D said one store owner.
+    \u201CPeople are nervous. You can feel it.\u201D \n\nPolice cite economic stress
+    and underreporting as compounding factors, but many residents say they\u2019ve
+    stopped expecting help altogether. With no clear plan in sight, public trust
+    is slipping and fear is filling the gap."
+  image: {fileID: 0}
+  isApproved: 0
+  isReviewed: 0
+  trustImpact: 4
+  perceptionImpact: -4
+  engagementImpact: 7
+  revenueImpact: 0
+  paulSupportImpact: 0
+  scientistSupportImpact: 0
+  unlockConditions:
+  - referenceArticle: {fileID: 0}
+    conditionType: 4
+    statType: 1
+    statThreshold: 49

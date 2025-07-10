@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b7365449440ba4fb115dd558e866bd, type: 3}
+  m_Name: Jeffwin
+  m_EditorClassIdentifier: 
+  headline: "Candidates Reflect \non Jeff\u2019s Win"
+  body: "In the aftermath of Jeff\u2019s mayoral victory, defeated candidates Mad
+    Scientist and Paul E. Teshun had surprisingly calm reactions.\n\n\u201CYeah,
+    that makes sense,\u201D Paul shrugged when asked about the outcome. The Mad Scientist
+    simply sighed. \n\n\u201CBack to the status quo, I suppose,\u201D he said, adjusting
+    his goggles. \n\nAs for Jeff, he\u2019s reportedly taking meetings, though no
+    one\u2019s entirely sure where."
+  image: {fileID: 0}
+  isApproved: 0
+  isReviewed: 0
+  trustImpact: 4
+  perceptionImpact: 4
+  engagementImpact: 3
+  revenueImpact: 0
+  paulSupportImpact: 0
+  scientistSupportImpact: 0
+  unlockConditions:
+  - referenceArticle: {fileID: 0}
+    conditionType: 6
+    statType: 0
+    statThreshold: 0

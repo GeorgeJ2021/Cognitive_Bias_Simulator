@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b7365449440ba4fb115dd558e866bd, type: 3}
+  m_Name: MSConcrete
+  m_EditorClassIdentifier: 
+  headline: "Super Concrete \nWorks... Sort of"
+  body: "The new overpass built with the Mad Scientist\u2019s \u201Csuper concrete\u201D
+    let out a terrifying, dinosaur-like scream just before partially collapsing.
+    No one was hurt, thanks to the warning. \n\nBut the material was supposed to
+    prevent collapse altogether. Some of the Mad Scientist's supporters admit they
+    were just hoping he\u2019d fail upward again. \n\nThis time, he did exactly what
+    he promised and that's what worries people. Headphones are recommended since
+    the overpass still growls periodically. "
+  image: {fileID: 0}
+  isApproved: 0
+  isReviewed: 0
+  trustImpact: 4
+  perceptionImpact: -4
+  engagementImpact: 7
+  revenueImpact: 0
+  paulSupportImpact: 0
+  scientistSupportImpact: 0
+  unlockConditions:
+  - referenceArticle: {fileID: 0}
+    conditionType: 7
+    statType: 0
+    statThreshold: 0

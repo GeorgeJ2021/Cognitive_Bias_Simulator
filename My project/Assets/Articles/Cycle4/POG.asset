@@ -17,14 +17,15 @@ MonoBehaviour:
     Endorses Mad Scientist ?'
   body: "In a recent interview, the President of Genericstan expressed support for
     the Mad Scientist, remarking with a laugh, \u201CHe\u2019s got some good ideas,
-    especially the one about mind control.\u201D\n\nThe comment has raised some speculation
-    about foreign backing for the city\u2019s most unpredictable mayoral candidate.\n\nPaul
-    E. Teshun claimed the president was \u201C unserious.\u201D While the Mad Scientist
-    responded, \u201CI don\u2019t even know who that is.\u201D"
+    especially the one about mind control.\u201D\n\nPaul E. Teshun claimed the president
+    was \u201Cunserious.\u201D While the Mad Scientist responded, \u201CI don\u2019t
+    even know who that is.\u201D\n\nDespite his eccentric proposals, the Mad Scientist
+    has built a loyal following, many of whom believe his accidental successes are
+    proof of genius in disguise."
   image: {fileID: 0}
   isApproved: 0
-  isReviewed: 0
-  trustImpact: -6
+  isReviewed: 1
+  trustImpact: -3
   perceptionImpact: 0
   engagementImpact: 7
   revenueImpact: 0

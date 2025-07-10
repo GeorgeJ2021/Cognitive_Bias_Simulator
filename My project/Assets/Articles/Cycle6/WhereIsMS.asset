@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b7365449440ba4fb115dd558e866bd, type: 3}
+  m_Name: WhereIsMS
+  m_EditorClassIdentifier: 
+  headline: "\u201CWhere\u2019s the Mayor?\u201D \nCity Grows Impatient"
+  body: "\u201CHe vanishes for days, then shows up talking about wormholes or something,\u201D
+    one staffer said. \u201CWe just want a working bus schedule.\u201D\n\nSince taking
+    office, the Mad Scientist has claimed his absences are part of \u201Cscientific
+    adventures\u201D now enabled by his mayoral authority, often citing \u201Curgent
+    experiments\u201D and using emergency powers to bypass planning committees.\n\n\u201CHe
+    left a note once,\u201D a council member added. \u201CIt just said \u2018DO NOT
+    TOUCH THE PORTAL.\u2019\u201D"
+  image: {fileID: 0}
+  isApproved: 0
+  isReviewed: 0
+  trustImpact: 4
+  perceptionImpact: -4
+  engagementImpact: 7
+  revenueImpact: 0
+  paulSupportImpact: 0
+  scientistSupportImpact: 0
+  unlockConditions:
+  - referenceArticle: {fileID: 0}
+    conditionType: 7
+    statType: 0
+    statThreshold: 0

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b7365449440ba4fb115dd558e866bd, type: 3}
+  m_Name: JeffMayor
+  m_EditorClassIdentifier: 
+  headline: "Quiet Win, \nQuieter Plans"
+  body: "Since the election, Jeff has held a few brief press appearances, mostly
+    nodding and smiling. City Hall reports that he's been reviewing things and that
+    \u201CJeff has a plan.\u201D\n\nWhen asked about the city\u2019s biggest issues,
+    like the collapsed overpass, Jeff simply replied, \u201CYes,\u201D and later,
+    \u201COk\u201D which left reporters puzzled but strangely satisfied.\n\n\u201CHe
+    seems calm,\u201D said an official. \u201CHonestly, that\u2019s enough right
+    now.\u201D"
+  image: {fileID: 0}
+  isApproved: 0
+  isReviewed: 0
+  trustImpact: 4
+  perceptionImpact: 4
+  engagementImpact: 3
+  revenueImpact: 0
+  paulSupportImpact: 0
+  scientistSupportImpact: 0
+  unlockConditions:
+  - referenceArticle: {fileID: 0}
+    conditionType: 6
+    statType: 0
+    statThreshold: 0

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b7365449440ba4fb115dd558e866bd, type: 3}
+  m_Name: SolarAirport
+  m_EditorClassIdentifier: 
+  headline: "City Airport Now \n100% Solar Powered"
+  body: "In a major leap toward sustainability, the city\u2019s airport has officially
+    transitioned to run entirely on solar power. \n\nThe upgrade includes solar arrays
+    installed on rooftops, parking structures, and nearby fields.\n\nOfficials say
+    the move will cut energy costs and carbon emissions significantly. \u201CIt\u2019s
+    a milestone,\u201D said one engineer. \n\n\u201CAn airport this size running
+    on clean energy? That\u2019s the future.\u201D"
+  image: {fileID: 0}
+  isApproved: 0
+  isReviewed: 0
+  trustImpact: 4
+  perceptionImpact: 4
+  engagementImpact: 5
+  revenueImpact: 0
+  paulSupportImpact: 0
+  scientistSupportImpact: 0
+  unlockConditions: []

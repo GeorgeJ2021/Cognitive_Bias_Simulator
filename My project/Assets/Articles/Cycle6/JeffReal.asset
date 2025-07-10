@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b7365449440ba4fb115dd558e866bd, type: 3}
+  m_Name: JeffReal
+  m_EditorClassIdentifier: 
+  headline: "Is Jeff Even \nReal?"
+  body: "Despite winning the mayoral election in a landslide, many citizens are still
+    asking the same question: Who is Jeff?\n\n\u201CHe was always there,\u201D said
+    one voter. \u201CYou know\u2026 in the background. Wearing that jacket?\u201D.
+    A political analyst admitted, \u201CWe don\u2019t have much on file. No scandals,
+    no speeches, no slogans. Just\u2026 Jeff.\u201D\n\nJeff has not yet responded
+    to requests for comment, but sources say he\u2019s \u201Cjust happy to help.\u201D"
+  image: {fileID: 0}
+  isApproved: 0
+  isReviewed: 0
+  trustImpact: -1
+  perceptionImpact: 0
+  engagementImpact: 6
+  revenueImpact: 0
+  paulSupportImpact: 0
+  scientistSupportImpact: 0
+  unlockConditions:
+  - referenceArticle: {fileID: 0}
+    conditionType: 6
+    statType: 0
+    statThreshold: 0

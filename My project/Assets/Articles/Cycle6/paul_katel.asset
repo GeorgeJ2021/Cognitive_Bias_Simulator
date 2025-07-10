@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b7365449440ba4fb115dd558e866bd, type: 3}
+  m_Name: paul_katel
+  m_EditorClassIdentifier: 
+  headline: "Questions Linger \nOver Paul-Katel Ties"
+  body: "A recent investigation has raised concerns over potential backdoor dealings
+    between newly elected Mayor Paul E. Teshun and FabriKator CEO Fabio Katel.\n\nIndependent
+    journalist Marla Norr uncovered a trail of emails, meeting records, and private
+    donations that suggest a close relationship during the campaign. While none of
+    the findings are illegal, they\u2019ve prompted questions about transparency
+    and influence.\n\n\u201CEverything points to a quiet understanding,\u201D Norr
+    said. \u201CBut nothing that would hold up in court.\u201D"
+  image: {fileID: 0}
+  isApproved: 0
+  isReviewed: 0
+  trustImpact: -5
+  perceptionImpact: -4
+  engagementImpact: 6
+  revenueImpact: 0
+  paulSupportImpact: 0
+  scientistSupportImpact: 0
+  unlockConditions:
+  - referenceArticle: {fileID: 0}
+    conditionType: 5
+    statType: 0
+    statThreshold: 0

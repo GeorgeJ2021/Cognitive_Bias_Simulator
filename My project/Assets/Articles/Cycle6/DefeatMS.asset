@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b7365449440ba4fb115dd558e866bd, type: 3}
+  m_Name: DefeatMS
+  m_EditorClassIdentifier: 
+  headline: "Mad Scientist \nDenies Loss"
+  body: "Following Paul E. Teshun\u2019s election victory, the Mad Scientist was
+    seen being forcibly removed from city hall after attempting to climb onto the
+    podium while shouting, \u201CTHIS ISN'T OVER!\u201D\n\nWhen later asked how he
+    handled the defeat, he answered: \u201COh, I am entirely composed and collected
+    now.\u201D He then added, eyes twitching, \u201CBut the election was RIGGED!
+    THE NUMBERS ARE WRONG! I HAD IT ALL PLANNED OUT!\u201D\n\nPaul E. Teshun has
+    reportedly increased his personal security, just in case."
+  image: {fileID: 0}
+  isApproved: 0
+  isReviewed: 0
+  trustImpact: 4
+  perceptionImpact: 4
+  engagementImpact: 3
+  revenueImpact: 0
+  paulSupportImpact: 0
+  scientistSupportImpact: 0
+  unlockConditions:
+  - referenceArticle: {fileID: 0}
+    conditionType: 5
+    statType: 0
+    statThreshold: 0

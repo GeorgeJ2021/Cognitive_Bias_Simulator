@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b7365449440ba4fb115dd558e866bd, type: 3}
+  m_Name: CrimeDown
+  m_EditorClassIdentifier: 
+  headline: 'Officials Report Dip
+
+    in Petty Crime'
+  body: "After a shaky start to the year, police say rates of theft and vandalism
+    are beginning to fall across the city.\n\n\u201CThanks to community cooperation
+    and targeted patrols, we\u2019re seeing improvements,\u201D said Officer Lee.
+    \u201CIt\u2019s not perfect, but the trend is encouraging.\u201D\n\nResidents
+    credit better lighting, local watch groups, and new youth programs for the shift.
+    While some remain cautious, many agree: the city feels just a little safer this
+    month."
+  image: {fileID: 0}
+  isApproved: 0
+  isReviewed: 0
+  trustImpact: 4
+  perceptionImpact: 4
+  engagementImpact: 3
+  revenueImpact: 0
+  paulSupportImpact: 0
+  scientistSupportImpact: 0
+  unlockConditions:
+  - referenceArticle: {fileID: 0}
+    conditionType: 3
+    statType: 1
+    statThreshold: 50

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b7365449440ba4fb115dd558e866bd, type: 3}
+  m_Name: PaulOverpass
+  m_EditorClassIdentifier: 
+  headline: "Paul Greenlights \nOverpass Repairs"
+  body: "Mayor Paul E. Teshun has approved a swift reconstruction of the collapsed
+    overpass, partnering with infrastructure firm FabriKator.\n\nThe project will
+    avoid \u201Cexperimental materials,\u201D according to a city spokesperson, a
+    clear shift from the Mad Scientist\u2019s controversial \u201Csuper concrete.\u201D\n\n\u201CLet\u2019s
+    build things that don\u2019t scream,\u201D Paul said during a site visit. Work
+    is set to begin immediately."
+  image: {fileID: 0}
+  isApproved: 0
+  isReviewed: 0
+  trustImpact: 4
+  perceptionImpact: 4
+  engagementImpact: 3
+  revenueImpact: 0
+  paulSupportImpact: 0
+  scientistSupportImpact: 0
+  unlockConditions:
+  - referenceArticle: {fileID: 0}
+    conditionType: 5
+    statType: 0
+    statThreshold: 0
