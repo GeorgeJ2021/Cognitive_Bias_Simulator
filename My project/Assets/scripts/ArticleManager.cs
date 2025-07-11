@@ -172,7 +172,7 @@ public class ArticleManager : MonoBehaviour
 
     public float ExpenseCal(int engagement, int publicTrust)
     {
-        float baseExpense = 50f;
+        float baseExpense = 100f;
         float cycleExpense = baseExpense +
         (engagement * 0.5f) + (publicTrust * 0.4f);
 
@@ -287,6 +287,7 @@ public class ArticleManager : MonoBehaviour
         else
         {
             Debug.Log("No more news cycles.");
+            GameOver.Instance.ShowResults(statsManager);
         }
     }
 
