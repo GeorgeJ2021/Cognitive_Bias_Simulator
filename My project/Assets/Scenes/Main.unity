@@ -3348,6 +3348,52 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a8d819c88b06d5d479cad532c162c475, type: 3}
+--- !u!1 &481280153
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 481280155}
+  - component: {fileID: 481280154}
+  m_Layer: 0
+  m_Name: GameLog
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &481280154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 481280153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29b68c3875590e14fb25eefe87b0d0ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  statsManager: {fileID: 1912530546}
+  firebaseUrl: https://cogbias1-default-rtdb.europe-west1.firebasedatabase.app/
+--- !u!4 &481280155
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 481280153}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 566.64526, y: 769.7882, z: -654.179}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &482230741
 GameObject:
   m_ObjectHideFlags: 0
@@ -10271,6 +10317,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a344f1785515e9b4cbf93fbea7e8c215, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameLogger: {fileID: 481280154}
   gameOverPanel: {fileID: 1575305135}
   finalStatsText: {fileID: 1949072293}
   endingNarrativeText: {fileID: 1773993488}
@@ -13095,3 +13142,4 @@ SceneRoots:
   - {fileID: 1435712352}
   - {fileID: 189905528}
   - {fileID: 1648338272}
+  - {fileID: 481280155}

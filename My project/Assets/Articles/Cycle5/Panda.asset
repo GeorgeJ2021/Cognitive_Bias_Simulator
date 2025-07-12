@@ -30,11 +30,12 @@ MonoBehaviour:
 '
   image: {fileID: 0}
   isApproved: 0
-  isReviewed: 0
+  isReviewed: 1
   trustImpact: 0
-  perceptionImpact: 1
+  perceptionImpact: 4
   engagementImpact: 4
   revenueImpact: 0
   paulSupportImpact: 0
   scientistSupportImpact: 0
+  IsAdvert: 0
   unlockConditions: []

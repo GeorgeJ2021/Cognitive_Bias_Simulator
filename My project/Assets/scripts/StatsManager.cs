@@ -32,6 +32,8 @@ public class StatsManager : MonoBehaviour
     public int paulPopularity = 0;
     public int scientistPopularity = 0;
 
+    public int NoOfAdvert = 0;
+
     void Start()
     {
         viewFullStatsButton.onClick.AddListener(() =>

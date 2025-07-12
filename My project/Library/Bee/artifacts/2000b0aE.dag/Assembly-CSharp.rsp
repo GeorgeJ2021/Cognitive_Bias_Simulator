@@ -339,6 +339,7 @@
 -analyzer:"D:/Unity Editors/Unity 2022.3.5f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/scripts/Article.cs"
 "Assets/scripts/ArticleManager.cs"
+"Assets/scripts/GameLogger.cs"
 "Assets/scripts/GameOver.cs"
 "Assets/scripts/NewsCycle.cs"
 "Assets/scripts/StatsManager.cs"

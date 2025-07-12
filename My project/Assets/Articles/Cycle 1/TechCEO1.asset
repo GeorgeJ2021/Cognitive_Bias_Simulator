@@ -26,8 +26,9 @@ MonoBehaviour:
   isReviewed: 1
   trustImpact: 7
   perceptionImpact: -5
-  engagementImpact: 10
+  engagementImpact: 6
   revenueImpact: 0
   paulSupportImpact: 0
   scientistSupportImpact: 0
+  IsAdvert: 0
   unlockConditions: []

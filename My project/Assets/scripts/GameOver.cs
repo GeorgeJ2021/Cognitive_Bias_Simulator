@@ -5,7 +5,9 @@ using TMPro;
 
 public class GameOver : MonoBehaviour
 {
-   public static GameOver Instance;
+    public static GameOver Instance;
+
+    public GameLogger gameLogger;
 
     [Header("UI References")]
     public GameObject gameOverPanel;
@@ -34,8 +36,10 @@ public class GameOver : MonoBehaviour
 
         finalStatsText.text = statsSummary;
 
+        string winner = CheckWinner(stats);
         // Evaluate ending narrative based on stats
         endingNarrativeText.text = GenerateEndingNarrative(stats);
+        //gameLogger.LogAndSendData(CheckWinner(), false);
     }
 
     string ColorText(string text, string color)
@@ -52,7 +56,25 @@ public class GameOver : MonoBehaviour
 
         if (stats.publicPerception > 60)
             return ColorText("The City feels hopeful and united.", "green");
-        
+
         return "The city remains in a fragile balance, awaiting its next chapter.";
+    }
+
+    string CheckWinner(StatsManager stats)
+    {
+        if (stats.paulPopularity > stats.scientistPopularity)
+        {
+            return "Paul";
+        }
+        if (stats.paulPopularity < stats.scientistPopularity)
+        {
+            return "Scientist";
+        }
+        if (stats.paulPopularity == stats.scientistPopularity)
+        {
+            return "Jeff";
+        }
+
+        return "error, no winner";
     }
 }

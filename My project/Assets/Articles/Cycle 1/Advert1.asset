@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Advert1
   m_EditorClassIdentifier: 
   headline: "Advert: Introducing the \n\"Victory Slice\"!"
-  body: "Inspired by those who BUILD OUR FUTURE\u2014not tear it down. That\u2019s
-    why this week, our Victory Slice\u2122 comes with extra SUPPORT SAUCE and a limited-edition
+  body: "Inspired by those who BUILD OUR FUTURE, not tear it down. That\u2019s why
+    this week, our Victory Slice\u2122 comes with extra SUPPORT SAUCE and a limited-edition
     \u201CInnocent Until Pizza\u201D box design.\n\nMistakes? Misunderstandings? 
     We say: don\u2019t bite the hand that feeds the city's tech sector. So here\u2019s
     the deal: buy a Loyalty Lunch\u2122 and we\u2019ll pretend we never saw that
@@ -29,4 +29,5 @@ MonoBehaviour:
   revenueImpact: 100
   paulSupportImpact: 0
   scientistSupportImpact: 0
+  IsAdvert: 1
   unlockConditions: []

@@ -24,11 +24,12 @@ MonoBehaviour:
   isApproved: 0
   isReviewed: 0
   trustImpact: 1
-  perceptionImpact: 10
+  perceptionImpact: 8
   engagementImpact: 5
   revenueImpact: 0
   paulSupportImpact: 0
   scientistSupportImpact: 0
+  IsAdvert: 0
   unlockConditions:
   - referenceArticle: {fileID: 0}
     conditionType: 6

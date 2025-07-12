@@ -21,14 +21,15 @@ MonoBehaviour:
     THE NUMBERS ARE WRONG! I HAD IT ALL PLANNED OUT!\u201D\n\nPaul E. Teshun has
     reportedly increased his personal security, just in case."
   image: {fileID: 0}
-  isApproved: 0
-  isReviewed: 0
-  trustImpact: 4
-  perceptionImpact: 4
+  isApproved: 1
+  isReviewed: 1
+  trustImpact: -2
+  perceptionImpact: 0
   engagementImpact: 3
   revenueImpact: 0
   paulSupportImpact: 0
   scientistSupportImpact: 0
+  IsAdvert: 0
   unlockConditions:
   - referenceArticle: {fileID: 0}
     conditionType: 5

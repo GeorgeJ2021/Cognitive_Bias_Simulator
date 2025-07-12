@@ -22,12 +22,13 @@ MonoBehaviour:
     sense with modern tools.\u201D\n\nThe plan has gained early support from residents
     tired of break-ins and bike theft."
   image: {fileID: 0}
-  isApproved: 0
-  isReviewed: 0
+  isApproved: 1
+  isReviewed: 1
   trustImpact: 4
   perceptionImpact: 4
-  engagementImpact: 6
+  engagementImpact: 5
   revenueImpact: 0
   paulSupportImpact: 1
   scientistSupportImpact: 0
+  IsAdvert: 0
   unlockConditions: []

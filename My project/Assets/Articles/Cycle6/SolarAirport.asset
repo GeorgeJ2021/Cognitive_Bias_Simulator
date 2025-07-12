@@ -20,12 +20,13 @@ MonoBehaviour:
     a milestone,\u201D said one engineer. \n\n\u201CAn airport this size running
     on clean energy? That\u2019s the future.\u201D"
   image: {fileID: 0}
-  isApproved: 0
-  isReviewed: 0
-  trustImpact: 4
+  isApproved: 1
+  isReviewed: 1
+  trustImpact: 2
   perceptionImpact: 4
   engagementImpact: 5
   revenueImpact: 0
   paulSupportImpact: 0
   scientistSupportImpact: 0
+  IsAdvert: 0
   unlockConditions: []

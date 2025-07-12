@@ -51,6 +51,8 @@ public class Article : ScriptableObject
     public int paulSupportImpact = 0;
     public int scientistSupportImpact = 0;
 
+    public bool IsAdvert = false;
+
     [Header("Unlock Conditions")]
     public List<ArticleUnlockCondition> unlockConditions;
     

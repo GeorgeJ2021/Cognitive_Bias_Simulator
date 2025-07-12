@@ -21,14 +21,15 @@ MonoBehaviour:
     and influence.\n\n\u201CEverything points to a quiet understanding,\u201D Norr
     said. \u201CBut nothing that would hold up in court.\u201D"
   image: {fileID: 0}
-  isApproved: 0
-  isReviewed: 0
-  trustImpact: -5
+  isApproved: 1
+  isReviewed: 1
+  trustImpact: 2
   perceptionImpact: -4
   engagementImpact: 6
   revenueImpact: 0
   paulSupportImpact: 0
   scientistSupportImpact: 0
+  IsAdvert: 0
   unlockConditions:
   - referenceArticle: {fileID: 0}
     conditionType: 5

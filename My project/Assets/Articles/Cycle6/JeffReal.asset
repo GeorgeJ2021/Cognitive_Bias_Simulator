@@ -22,12 +22,13 @@ MonoBehaviour:
   image: {fileID: 0}
   isApproved: 0
   isReviewed: 0
-  trustImpact: -1
+  trustImpact: -4
   perceptionImpact: 0
-  engagementImpact: 6
+  engagementImpact: 7
   revenueImpact: 0
   paulSupportImpact: 0
   scientistSupportImpact: 0
+  IsAdvert: 0
   unlockConditions:
   - referenceArticle: {fileID: 0}
     conditionType: 6

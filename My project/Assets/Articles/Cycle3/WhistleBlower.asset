@@ -22,12 +22,13 @@ MonoBehaviour:
     \u201Cstandard and community-focused,\u201D though CEO Fabio Katel remains under
     suspicion amid ongoing investigations."
   image: {fileID: 0}
-  isApproved: 1
+  isApproved: 0
   isReviewed: 1
   trustImpact: 5
   perceptionImpact: -5
-  engagementImpact: 7
+  engagementImpact: 5
   revenueImpact: 0
   paulSupportImpact: 0
   scientistSupportImpact: 0
+  IsAdvert: 0
   unlockConditions: []

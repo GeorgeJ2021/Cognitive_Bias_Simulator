@@ -25,12 +25,13 @@ MonoBehaviour:
     treatments.\n\nWho will earn the city\u2019s trust in this battle of steady leadership
     versus bold innovation?\n"
   image: {fileID: 21300000, guid: 07b8b0cd7b106a941ba67fc32b0b4abe, type: 3}
-  isApproved: 0
+  isApproved: 1
   isReviewed: 1
   trustImpact: 2
   perceptionImpact: 2
-  engagementImpact: 8
+  engagementImpact: 2
   revenueImpact: 0
   paulSupportImpact: 0
   scientistSupportImpact: 0
+  IsAdvert: 0
   unlockConditions: []

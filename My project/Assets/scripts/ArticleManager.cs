@@ -172,9 +172,9 @@ public class ArticleManager : MonoBehaviour
 
     public float ExpenseCal(int engagement, int publicTrust)
     {
-        float baseExpense = 100f;
+        float baseExpense = 40f;
         float cycleExpense = baseExpense +
-        (engagement * 0.5f) + (publicTrust * 0.4f);
+        (engagement * 0.5f) + (publicTrust * 0.5f);
 
         return (cycleExpense);
     }
@@ -260,6 +260,11 @@ public class ArticleManager : MonoBehaviour
             totalScientistSupportImpact += article.scientistSupportImpact;
             totalRevenueImpact += article.revenueImpact;
 
+            if (article.IsAdvert == true)
+            {
+                statsManager.NoOfAdvert++;
+            }
+
             article.isApproved = true;
         }
         statsManager.ApplyArticleEffects(totalTrustImpact, totalPerceptionImpact, totalEngagementImpact, totalPaulSupportImpact, totalScientistSupportImpact);
@@ -283,6 +288,8 @@ public class ArticleManager : MonoBehaviour
         if (currentCycleIndex + 1 < newsCycles.Count)
         {
             LoadCycle(++currentCycleIndex);
+            float carryOverRatio = (statsManager.publicTrust + statsManager.publicPerception) / 200f; // max 1.0
+            statsManager.engagement = Mathf.FloorToInt(100 * carryOverRatio * 0.5f);
         }
         else
         {
