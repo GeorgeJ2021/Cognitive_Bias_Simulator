@@ -4,9 +4,17 @@ using UnityEngine;
 
 
 [System.Serializable]
+public class OptionData
+{
+    public string text;
+    public string biasKey; 
+    //public string explanation; 
+}
+
+[System.Serializable]
 public class QuestionnaireEntry
 {
     public string conditionKey;               
     public string questionText;               
-    public List<string> options = new();
+    public List<OptionData> options;
 }

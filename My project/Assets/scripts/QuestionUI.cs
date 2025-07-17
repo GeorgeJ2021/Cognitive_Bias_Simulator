@@ -15,13 +15,17 @@ public class QuestionUI : MonoBehaviour
 
     private System.Action onComplete;
 
+    public GameObject biasPopupPanel;
+    public TMP_Text biasTitleText;
+    public TMP_Text biasExplanationText;
+    public Button closePopupButton;
 
     public void Initialize(QuestionnaireEntry data, System.Action onCompleteCallback)
     {
         onComplete = onCompleteCallback;
         questionText.text = data.questionText;
 
-        optionsContainer = optionPanel.transform; 
+        optionsContainer = optionPanel.transform;
 
         foreach (Transform child in optionsContainer)
         {
@@ -31,12 +35,14 @@ public class QuestionUI : MonoBehaviour
         foreach (var option in data.options)
         {
             var btn = Instantiate(buttonPrefab, optionsContainer);
-            btn.GetComponentInChildren<TMP_Text>().text = option;
+            btn.GetComponentInChildren<TMP_Text>().text = option.text;
             btn.GetComponent<Button>().onClick.AddListener(() =>
             {
-                LogAnswer(data.questionText, option);
-                onComplete?.Invoke();
-                //Destroy(gameObject);
+                ShowBiasPopup(option.biasKey, () =>
+                {
+                    LogAnswer(data.questionText, option.text);
+                    onComplete?.Invoke();
+                });
             });
         }
 
@@ -49,6 +55,28 @@ public class QuestionUI : MonoBehaviour
         //         Destroy(gameObject);
         //     }
         // });
+    }
+
+    void ShowBiasPopup(string biasKey, System.Action onClose)
+    {
+        if (CognitiveBiasLibrary.Biases.TryGetValue(biasKey, out var bias))
+        {
+            biasPopupPanel.SetActive(true);
+            biasTitleText.text = bias.name;
+            biasExplanationText.text = bias.explanation;
+
+            closePopupButton.onClick.RemoveAllListeners();
+            closePopupButton.onClick.AddListener(() =>
+            {
+                biasPopupPanel.SetActive(false);
+                onClose?.Invoke();
+            });
+        }
+        else
+        {
+            Debug.LogWarning($"Bias key '{biasKey}' not found.");
+            onClose?.Invoke(); // Skip popup if not found
+        }
     }
 
     void LogAnswer(string question, string answer)

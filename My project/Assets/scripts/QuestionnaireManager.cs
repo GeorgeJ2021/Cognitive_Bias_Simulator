@@ -25,92 +25,92 @@ public class QuestionnaireManager : MonoBehaviour
         {
             allQuestions = new List<QuestionnaireEntry>
             {
-
                 new QuestionnaireEntry {
                     conditionKey = "PaulWon",
                     questionText = "It seems Paul won the election. What influenced your support for him?",
-                    options = new List<string> {
-                        "He seemed like a practical, no-nonsense leader",       // Representativeness Heuristic
-                        "He felt like the most trustworthy candidate",          // Halo Effect
-                        "I approved more articles about him without realizing", // Unconscious Bias
-                        "Everyone seemed to be leaning toward him at the end",  // Bandwagon Effect
-                        "I liked his backstory",                                // Affect Heuristic
-                        "Write your own reason..."
+                    options = new List<OptionData> {
+                        new OptionData { text = "He seemed like a practical, no-nonsense leader", biasKey = "RepresentativenessHeuristic" },
+                        new OptionData { text = "He felt like the most trustworthy candidate", biasKey = "HaloEffect" },
+                        new OptionData { text = "I approved more articles about him without realizing", biasKey = "UnconsciousBias" },
+                        new OptionData { text = "Everyone seemed to be leaning toward him at the end", biasKey = "BandwagonEffect" },
+                        new OptionData { text = "I liked his backstory", biasKey = "AffectHeuristic" },
+                        new OptionData { text = "Write your own reason...", biasKey = "Custom" }
                     }
                 },
 
                 new QuestionnaireEntry {
                     conditionKey = "ScientistWon",
                     questionText = "The Mad Scientist pulled off a surprise win. What led you to support him over Paul?",
-                    options = new List<string> {
-                        "His unconventional ideas kept working out somehow",            // Outcome Bias
-                        "He seemed like a refreshing change from the usual",            // Novelty Bias
-                        "Everyone was calling him a hero",                              // Bandwagon Effect
-                        "I thought he had a clear plan, even if it was strange",        // Ambiguity Effect
-                        "His past accidents had unexpectedly good outcomes",            // Optimism Bias
-                        "I didn’t think he’d actually win",                             //Normalcy Bias
-                        "Other..."
+                    options = new List<OptionData> {
+                        new OptionData { text = "His unconventional ideas kept working out somehow", biasKey = "OutcomeBias" },
+                        new OptionData { text = "He seemed like a refreshing change from the usual", biasKey = "NoveltyBias" },
+                        new OptionData { text = "Everyone was calling him a hero", biasKey = "BandwagonEffect" },
+                        new OptionData { text = "I thought he had a clear plan, even if it was strange", biasKey = "AmbiguityEffect" },
+                        new OptionData { text = "His past accidents had unexpectedly good outcomes", biasKey = "OptimismBias" },
+                        new OptionData { text = "I didn’t think he’d actually win", biasKey = "NormalcyBias" },
+                        new OptionData { text = "Other...", biasKey = "Custom" }
                     }
                 },
 
                 new QuestionnaireEntry {
                     conditionKey = "JeffWon",
                     questionText = "Jeff won the election due to a tie. What led you to support both Paul and the Mad Scientist equally?",
-                    options = new List<string> {
-                        "I tried to stay neutral between Paul and the Scientist",           // Ambiguity Aversion
-                        "I didn’t realize neutrality could lead to Jeff winning",           // Outcome Bias
-                        "I just thought it would be funny",                                 // Affect Heuristic
-                        "I assumed the city would figure out who was best without me",      // Diffusion of Responsibility
-                        "I thought being fair to both candidates would work out",           // Fairness Bias / Moral Credentialing
-                        "I wasn’t really tracking who was ahead",                           // Unconscious Bias
-                        "I thought the game would prevent a tie",                           // Normalcy Bias
-                        "Other..."
+                    options = new List<OptionData> {
+                        new OptionData { text = "I tried to stay neutral between Paul and the Scientist", biasKey = "AmbiguityAversion" },
+                        new OptionData { text = "I didn’t realize neutrality could lead to Jeff winning", biasKey = "OutcomeBias" },
+                        new OptionData { text = "I just thought it would be funny", biasKey = "AffectHeuristic" },
+                        new OptionData { text = "I assumed the city would figure out who was best without me", biasKey = "DiffusionOfResponsibility" },
+                        new OptionData { text = "I thought being fair to both candidates would work out", biasKey = "FairnessBias" },
+                        new OptionData { text = "I wasn’t really tracking who was ahead", biasKey = "UnconsciousBias" },
+                        new OptionData { text = "I thought the game would prevent a tie", biasKey = "NormalcyBias" },
+                        new OptionData { text = "Other...", biasKey = "Custom" }
                     }
                 },
 
                 new QuestionnaireEntry {
                     conditionKey = "LowPerception",
                     questionText = "The city grew paranoid and distrustful. What do you think led to this?",
-                    options = new List<string> {
-                        "I published too many fear-driven articles",     // Availability Bias
-                        "I focused on controversy to boost engagement",  // Incentive Bias
-                        "It wasn't intentional",                         // Omission Bias
-                        "Other..."
+                    options = new List<OptionData> {
+                        new OptionData { text = "I published too many fear-driven articles", biasKey = "AvailabilityBias" },
+                        new OptionData { text = "I focused on controversy to boost engagement", biasKey = "IncentiveBias" },
+                        new OptionData { text = "It wasn't intentional", biasKey = "OmissionBias" },
+                        new OptionData { text = "Other...", biasKey = "Custom" }
                     }
                 },
 
                 new QuestionnaireEntry {
                     conditionKey = "HighPerception",
                     questionText = "The city feels hopeful and united. What contributed to this positive perception?",
-                    options = new List<string> {
-                        "I focused on uplifting and constructive articles",             // Framing Effect
-                        "I avoided stories that could upset readers",                   // Negativity Avoidance
-                        "It just sort of happened—I wasn’t tracking perception stats", // Normalcy Bias
-                        "Other..."
+                    options = new List<OptionData> {
+                        new OptionData { text = "I focused on uplifting and constructive articles", biasKey = "FramingEffect" },
+                        new OptionData { text = "I avoided stories that could upset readers", biasKey = "NegativityAvoidance" },
+                        new OptionData { text = "It just sort of happened—I wasn’t tracking perception stats", biasKey = "NormalcyBias" },
+                        new OptionData { text = "Other...", biasKey = "Custom" }
                     }
                 },
 
                 new QuestionnaireEntry {
                     conditionKey = "AdBias",
                     questionText = "You published several revenue-heavy advertisements. Why?",
-                    options = new List<string> {
-                        "They provided the best revenue returns",                      // Incentive Bias
-                        "I didn’t consider their effect on public trust",              // Neglect of Probability
-                        "The secret messages were interesting or funny",               // Novelty Bias
-                        "Other..."
+                    options = new List<OptionData> {
+                        new OptionData { text = "They provided the best revenue returns", biasKey = "IncentiveBias" },
+                        new OptionData { text = "I didn’t consider their effect on public trust", biasKey = "NeglectOfProbability" },
+                        new OptionData { text = "The secret messages were interesting or funny", biasKey = "NoveltyBias" },
+                        new OptionData { text = "Other...", biasKey = "Custom" }
                     }
                 },
 
                 new QuestionnaireEntry {
                     conditionKey = "Bankrupt",
                     questionText = "The newspaper establishment went bankrupt. Why do you think that happened?",
-                    options = new List<string> {
-                        "I prioritized short-term revenue over long-term trust",       // Present Bias
-                        "I ran too many ads that damaged public trust",                // Moral Licensing
-                        "I didn’t balance engagement with financial management",       // Planning Fallacy
-                        "Other..."
+                    options = new List<OptionData> {
+                        new OptionData { text = "I prioritized short-term revenue over long-term trust", biasKey = "PresentBias" },
+                        new OptionData { text = "I ran too many ads that damaged public trust", biasKey = "MoralLicensing" },
+                        new OptionData { text = "I didn’t balance engagement with financial management", biasKey = "PlanningFallacy" },
+                        new OptionData { text = "Other...", biasKey = "Custom" }
                     }
                 },
+                
             };
         }
     }
