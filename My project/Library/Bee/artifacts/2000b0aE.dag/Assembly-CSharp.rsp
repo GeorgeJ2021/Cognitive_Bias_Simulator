@@ -343,6 +343,8 @@
 "Assets/scripts/GameOver.cs"
 "Assets/scripts/NewsCycle.cs"
 "Assets/scripts/QuestionnaireEntry.cs"
+"Assets/scripts/QuestionnaireManager.cs"
+"Assets/scripts/QuestionUI.cs"
 "Assets/scripts/StatsManager.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"

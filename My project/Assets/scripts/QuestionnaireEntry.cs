@@ -2,7 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class QuestionnaireEntry : MonoBehaviour
+
+[System.Serializable]
+public class QuestionnaireEntry
 {
     public string conditionKey;               
     public string questionText;               

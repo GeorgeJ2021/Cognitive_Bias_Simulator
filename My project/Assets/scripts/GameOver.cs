@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 
 public class GameOver : MonoBehaviour
@@ -13,6 +14,9 @@ public class GameOver : MonoBehaviour
     public GameObject gameOverPanel;
     public TMP_Text finalStatsText;
     public TMP_Text endingNarrativeText;
+    public Button startQuestionnaireButton;
+    public QuestionnaireManager questionnaireManager;
+
 
     List<string> triggeredConditions = new List<string>();
 
@@ -38,13 +42,26 @@ public class GameOver : MonoBehaviour
 
         finalStatsText.text = statsSummary;
 
-        if (stats.NoOfAdvert >= 3)
+
+
+        if (stats.NoOfAdvert > 2 )
         {
             triggeredConditions.Add("AdBias");
         }
         string winner = CheckWinner(stats);
         // Evaluate ending narrative based on stats
         endingNarrativeText.text = GenerateEndingNarrative(stats);
+
+        foreach (var cond in triggeredConditions)
+        {
+            Debug.Log("Trigger check: " + cond);
+        }
+
+        startQuestionnaireButton.onClick.AddListener(() =>
+        {
+            Debug.Log("Triggered conditions count: " + triggeredConditions.Count);
+            questionnaireManager.StartQuestionnaire(triggeredConditions); 
+        });
         //gameLogger.LogAndSendData(CheckWinner(), false);
     }
 
