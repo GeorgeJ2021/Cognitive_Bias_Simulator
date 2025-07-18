@@ -30,5 +30,7 @@ MonoBehaviour:
   revenueImpact: 0
   paulSupportImpact: 0
   scientistSupportImpact: 0
+  ProFab: 0
+  AntiFab: 1
   IsAdvert: 0
   unlockConditions: []

@@ -34,6 +34,9 @@ public class StatsManager : MonoBehaviour
 
     public int NoOfAdvert = 0;
 
+    public int AntiFabScore = 0;
+    public int ProFabScore = 0;
+
     void Start()
     {
         viewFullStatsButton.onClick.AddListener(() =>

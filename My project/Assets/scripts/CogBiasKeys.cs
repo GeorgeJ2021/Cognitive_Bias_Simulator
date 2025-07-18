@@ -12,9 +12,17 @@ public static class CognitiveBiasLibrary
 {
     public static Dictionary<string, CogBiasKeys> Biases = new Dictionary<string, CogBiasKeys>
     {
+        ["AnchoringBias"] = new CogBiasKeys {
+            name = "Anchoring Bias",
+            explanation = "You relied too heavily on the first piece of information you saw (like a hint or early impression) when making decisions."
+        },
         ["RepresentativenessHeuristic"] = new CogBiasKeys {
             name = "Representativeness Heuristic",
             explanation = "You judged something based on how much it resembles a stereotype, rather than logic or probability."
+        },
+        ["StatusQuoBias"] = new CogBiasKeys {
+            name = "Status Quo Bias",
+            explanation = "You preferred to keep things the same, avoiding change even when better options might have been available."
         },
         ["HaloEffect"] = new CogBiasKeys {
             name = "Halo Effect",
@@ -32,9 +40,17 @@ public static class CognitiveBiasLibrary
             name = "Affect Heuristic",
             explanation = "You let emotions or gut feelings guide your decision rather than facts."
         },
+        ["LossAversion"] = new CogBiasKeys {
+            name = "Loss Aversion",
+            explanation = "You prefer avoiding losses more than acquiring equivalent gains, making you more sensitive to potential losses."
+        },
         ["OutcomeBias"] = new CogBiasKeys {
             name = "Outcome Bias",
             explanation = "You judged a decision based on the outcome rather than how the decision was made."
+        },
+        ["SunkCostFallacy"] = new CogBiasKeys {
+            name = "Sunk Cost Fallacy",
+            explanation = "You continued with a decision because you had already invested time, effort, or resources, even when it was no longer the best choice."
         },
         ["NoveltyBias"] = new CogBiasKeys {
             name = "Novelty Bias",
@@ -72,6 +88,15 @@ public static class CognitiveBiasLibrary
             name = "Incentive Bias",
             explanation = "You favored options that gave you personal benefits, even if not ideal overall."
         },
+        ["AuthorityBias"] = new CogBiasKeys {
+            name = "Authority Bias",
+            explanation = "You trusted someone because of their position/status, even if it wasn’t fully justified."
+        },
+        ["ConfirmationBias"] = new CogBiasKeys {
+            name = "Confirmation Bias",
+            explanation = "You focused on information that supported what you already believed, while ignoring evidence that contradicted it."
+        },
+
         ["OmissionBias"] = new CogBiasKeys {
             name = "Omission Bias",
             explanation = "You viewed harmful inactions as less bad than harmful actions, even with the same outcome."

@@ -23,7 +23,7 @@ MonoBehaviour:
     it odd that an unsupervised inventor outshines a national firm while that firm's
     under fire?\" one staffer remarked."
   image: {fileID: 0}
-  isApproved: 0
+  isApproved: 1
   isReviewed: 1
   trustImpact: 3
   perceptionImpact: -3
@@ -31,4 +31,7 @@ MonoBehaviour:
   revenueImpact: 0
   paulSupportImpact: 0
   scientistSupportImpact: 0
+  ProFab: 1
+  AntiFab: 0
+  IsAdvert: 0
   unlockConditions: []

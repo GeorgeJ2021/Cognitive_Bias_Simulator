@@ -21,13 +21,16 @@ MonoBehaviour:
     and addressed a small crowd regarding the future of the city."
   image: {fileID: 0}
   isApproved: 0
-  isReviewed: 0
+  isReviewed: 1
   trustImpact: 3
   perceptionImpact: 3
   engagementImpact: 4
   revenueImpact: 0
   paulSupportImpact: 0
   scientistSupportImpact: 0
+  ProFab: 1
+  AntiFab: 0
+  IsAdvert: 0
   unlockConditions:
   - referenceArticle: {fileID: 0}
     conditionType: 5

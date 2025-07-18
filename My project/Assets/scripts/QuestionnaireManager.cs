@@ -84,7 +84,7 @@ public class QuestionnaireManager : MonoBehaviour
                     options = new List<OptionData> {
                         new OptionData { text = "I focused on uplifting and constructive articles", biasKey = "FramingEffect" },
                         new OptionData { text = "I avoided stories that could upset readers", biasKey = "NegativityAvoidance" },
-                        new OptionData { text = "It just sort of happened—I wasn’t tracking perception stats", biasKey = "NormalcyBias" },
+                        new OptionData { text = "I wasn’t tracking perception stats", biasKey = "NormalcyBias" },
                         new OptionData { text = "Other...", biasKey = "Custom" }
                     }
                 },
@@ -107,6 +107,33 @@ public class QuestionnaireManager : MonoBehaviour
                         new OptionData { text = "I prioritized short-term revenue over long-term trust", biasKey = "PresentBias" },
                         new OptionData { text = "I ran too many ads that damaged public trust", biasKey = "MoralLicensing" },
                         new OptionData { text = "I didn’t balance engagement with financial management", biasKey = "PlanningFallacy" },
+                        new OptionData { text = "Other...", biasKey = "Custom" }
+                    }
+                },
+                new QuestionnaireEntry {
+                    conditionKey = "ProFab",
+                    questionText = "You published articles in support of Fabrikator.What motivated that choice?",
+                    options = new List<OptionData> {
+                        new OptionData { text = "He was creating jobs and boosting the economy which that felt more important.", biasKey = "AffectHeuristic" },
+                        new OptionData { text = "The pizza ads kept hinting he was innocent", biasKey = "AnchoringBias" },
+                        new OptionData { text = "I assumed someone else would expose him if he were truly guilty.", biasKey = "DiffusionOfResponsibility" },
+                        new OptionData { text = "I thought the timing of the case was too suspicious to be real.", biasKey = "NormalcyBias" },
+                        new OptionData { text = "The company had a polished image, so I assumed it was trustworthy.", biasKey = "HaloEffect" },
+                        new OptionData { text = "I chose to keep things as they were by supporting them.", biasKey = "StatusQuoBias" },
+                        new OptionData { text = "Other...", biasKey = "Custom" }
+                    }
+                },
+
+                new QuestionnaireEntry {
+                    conditionKey = "AntiFab",
+                    questionText = "You published articles that criticized Fabrikator. What motivated that choice?",
+                    options = new List<OptionData> {
+                        new OptionData { text = "I trusted the whistleblowers because they seemed credible", biasKey = "AuthorityBias" },
+                        new OptionData { text = "Everyone around me seemed to be turning on the company.", biasKey = "BandwagonEffect" },
+                        new OptionData { text = "Negative articles drove more engagement and revenue.", biasKey = "IncentiveBias" },
+                        new OptionData { text = "I didn’t want to risk downplaying something that could be serious.", biasKey = "LossAversion" },
+                        new OptionData { text = "The stories confirmed what I already suspected about the company.", biasKey = "ConfirmationBias" },
+                        new OptionData { text = "I figured the damage was already done, so why not dig deeper?", biasKey = "SunkCostFallacy" },
                         new OptionData { text = "Other...", biasKey = "Custom" }
                     }
                 },

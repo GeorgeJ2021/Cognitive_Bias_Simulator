@@ -27,6 +27,9 @@ MonoBehaviour:
   revenueImpact: 0
   paulSupportImpact: 0
   scientistSupportImpact: 0
+  ProFab: 1
+  AntiFab: 0
+  IsAdvert: 0
   unlockConditions:
   - referenceArticle: {fileID: 0}
     conditionType: 6

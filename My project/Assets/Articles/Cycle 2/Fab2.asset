@@ -28,6 +28,8 @@ MonoBehaviour:
   revenueImpact: 0
   paulSupportImpact: 1
   scientistSupportImpact: 0
+  ProFab: 1
+  AntiFab: 0
   IsAdvert: 0
   unlockConditions:
   - referenceArticle: {fileID: 11400000, guid: 392490c803ac24c4986d1473398d96a2, type: 2}

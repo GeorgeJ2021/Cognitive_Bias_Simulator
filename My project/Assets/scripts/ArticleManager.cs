@@ -106,7 +106,7 @@ public class ArticleManager : MonoBehaviour
 
         if (article.image != null)
         {
-            Debug.Log("Image detected");
+            //Debug.Log("Image detected");
             popupArticleImage.sprite = article.image;
             imagePopupPanel.SetActive(true); 
             showAttachmentsButton.interactable = true;
@@ -133,7 +133,7 @@ public class ArticleManager : MonoBehaviour
     {
         currentArticle.isApproved = true;
         currentArticle.isReviewed = true;
-        Debug.Log("Approved");
+        //Debug.Log("Approved");
         if (!approvedArticles.Contains(currentArticle))
         {
             approvedArticles.Add(currentArticle);
@@ -265,6 +265,16 @@ public class ArticleManager : MonoBehaviour
                 statsManager.NoOfAdvert++;
             }
 
+            if (article.AntiFab == true)
+            {
+                statsManager.AntiFabScore++;
+            }
+
+            if (article.ProFab == true)
+            {
+                statsManager.ProFabScore++;
+            }
+
             article.isApproved = true;
         }
         statsManager.ApplyArticleEffects(totalTrustImpact, totalPerceptionImpact, totalEngagementImpact, totalPaulSupportImpact, totalScientistSupportImpact);
@@ -274,7 +284,7 @@ public class ArticleManager : MonoBehaviour
         statsManager.RemoveRevenue(cycleExpense);
 
         publishPanel.SetActive(false);
-        Debug.Log("Published. Stats updated.");
+        //Debug.Log("Published. Stats updated.");
         LoadNextCycle();
     }
     void HideDecisionButtons()
@@ -293,7 +303,9 @@ public class ArticleManager : MonoBehaviour
         }
         else
         {
-            Debug.Log("No more news cycles.");
+           // Debug.Log("No more news cycles.");
+            Debug.Log("ProFab: " + statsManager.ProFabScore);
+            Debug.Log("Anti Fab: " + statsManager.AntiFabScore);
             GameOver.Instance.ShowResults(statsManager);
         }
     }

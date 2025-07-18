@@ -42,11 +42,18 @@ public class GameOver : MonoBehaviour
 
         finalStatsText.text = statsSummary;
 
-
-
         if (stats.NoOfAdvert > 2 )
         {
             triggeredConditions.Add("AdBias");
+        }
+
+        if (stats.AntiFabScore < stats.ProFabScore)
+        {
+            triggeredConditions.Add("ProFab");
+        }
+        if ((stats.AntiFabScore > stats.ProFabScore) && (stats.AntiFabScore > 1))
+        {
+            triggeredConditions.Add("AntiFab");
         }
         string winner = CheckWinner(stats);
         // Evaluate ending narrative based on stats
