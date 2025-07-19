@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 
 public class QuestionnaireManager : MonoBehaviour
@@ -13,7 +14,8 @@ public class QuestionnaireManager : MonoBehaviour
     public GameObject questionnairePanel;
 
     public GameObject Panel;
-     private QuestionUI questionUI;
+    public GameObject QuesOverPanel;
+    private QuestionUI questionUI;
 
     private int currentQuestionIndex = 0;
     private List<QuestionnaireEntry> selectedQuestions = new();
@@ -137,7 +139,7 @@ public class QuestionnaireManager : MonoBehaviour
                         new OptionData { text = "Other...", biasKey = "Custom" }
                     }
                 },
-                
+
             };
         }
     }
@@ -168,17 +170,39 @@ public class QuestionnaireManager : MonoBehaviour
         if (currentQuestionIndex >= selectedQuestions.Count)
         {
             Debug.Log("Questionnaire finished");
+            ShowFinalPanel();
             questionnairePanel.SetActive(false);
             return;
         }
 
         var questionData = selectedQuestions[currentQuestionIndex];
         //var panel = Instantiate(questionPanelPrefab, questionContainer);
-        
+
         questionUI.Initialize(questionData, () =>
         {
             currentQuestionIndex++;
             ShowNextQuestion();
         });
     }
+    
+    public void ShowFinalPanel()
+        {
+            QuesOverPanel.SetActive(true);
+        }
+
+    public void RestartGame()
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
+
+    public void QuitGame()
+        {
+            Application.Quit();
+            // Note: This won't do anything in editor
+    #if UNITY_EDITOR
+            UnityEditor.EditorApplication.isPlaying = false;
+    #endif
+        }
+
+
 }
