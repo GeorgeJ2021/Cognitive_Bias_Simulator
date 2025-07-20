@@ -3,6 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.Networking;
+using System;
+
+
+[System.Serializable]
+public class QuestionnaireResponse
+{
+    public string conditionKey;
+    public string question;
+    public string answer;
+    public string biasKey;
+}
 
 public class QuestionUI : MonoBehaviour
 {
@@ -14,7 +26,7 @@ public class QuestionUI : MonoBehaviour
     //public TMP_InputField customInput;
 
     private System.Action onComplete;
-
+    private List<QuestionnaireResponse> responses = new List<QuestionnaireResponse>();
     public GameObject biasPopupPanel;
     public TMP_Text biasTitleText;
     public TMP_Text biasExplanationText;
@@ -40,7 +52,7 @@ public class QuestionUI : MonoBehaviour
             {
                 ShowBiasPopup(option.biasKey, () =>
                 {
-                    LogAnswer(data.questionText, option.text);
+                    LogAnswer(data.conditionKey,data.questionText, option.text, option.biasKey);
                     onComplete?.Invoke();
                 });
             });
@@ -79,9 +91,59 @@ public class QuestionUI : MonoBehaviour
         }
     }
 
-    void LogAnswer(string question, string answer)
+    void LogAnswer(string conditionKey, string question, string answer, string biasKey)
     {
+        responses.Add(new QuestionnaireResponse
+        {
+            conditionKey = conditionKey,
+            question = question,
+            answer = answer,
+            biasKey = biasKey
+        });
         // Send to Firebase here or local log
         Debug.Log($"Q: {question} | A: {answer}");
     }
+
+    public void UploadResponsesToFirebase()
+    {
+        if (responses.Count == 0)
+            return;
+
+        string sessionId = System.Guid.NewGuid().ToString();
+       foreach (var r in responses)
+        {
+            string questionKey = r.conditionKey; // Add this to your AnswerData if not already there
+            string firebaseUrl = $"https://cogbias1-default-rtdb.europe-west1.firebasedatabase.app/questionnaire/{questionKey}/{sessionId}.json";
+
+            string json = JsonUtility.ToJson(r);
+            StartCoroutine(SendToFirebase(firebaseUrl, json));
+        }
+    }
+
+    [System.Serializable]
+    public class Wrapper
+    {
+        public List<QuestionnaireResponse> responses;
+    }
+
+    IEnumerator SendToFirebase(string url, string json)
+    {
+        UnityWebRequest request = new UnityWebRequest(url, "PUT");
+        byte[] bodyRaw = System.Text.Encoding.UTF8.GetBytes(json);
+        request.uploadHandler = new UploadHandlerRaw(bodyRaw);
+        request.downloadHandler = new DownloadHandlerBuffer();
+        request.SetRequestHeader("Content-Type", "application/json");
+
+        yield return request.SendWebRequest();
+
+        if (request.result == UnityWebRequest.Result.Success)
+        {
+            Debug.Log("Questionnaire responses uploaded.");
+        }
+        else
+        {
+            Debug.LogError("Questionnaire upload failed: " + request.error);
+        }
+    }
+
 }

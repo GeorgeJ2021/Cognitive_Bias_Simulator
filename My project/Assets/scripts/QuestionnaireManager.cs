@@ -171,6 +171,7 @@ public class QuestionnaireManager : MonoBehaviour
         {
             Debug.Log("Questionnaire finished");
             ShowFinalPanel();
+            questionUI.UploadResponsesToFirebase();
             questionnairePanel.SetActive(false);
             return;
         }
