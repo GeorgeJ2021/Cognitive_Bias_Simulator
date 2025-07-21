@@ -342,6 +342,7 @@
 "Assets/scripts/CogBiasKeys.cs"
 "Assets/scripts/GameLogger.cs"
 "Assets/scripts/GameOver.cs"
+"Assets/scripts/Instructions.cs"
 "Assets/scripts/NewsCycle.cs"
 "Assets/scripts/QuestionnaireEntry.cs"
 "Assets/scripts/QuestionnaireManager.cs"
