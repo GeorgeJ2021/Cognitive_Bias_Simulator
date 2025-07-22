@@ -343,6 +343,7 @@
 "Assets/scripts/GameLogger.cs"
 "Assets/scripts/GameOver.cs"
 "Assets/scripts/Instructions.cs"
+"Assets/scripts/MenuCode.cs"
 "Assets/scripts/NewsCycle.cs"
 "Assets/scripts/QuestionnaireEntry.cs"
 "Assets/scripts/QuestionnaireManager.cs"
