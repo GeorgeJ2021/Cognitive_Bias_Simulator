@@ -1,0 +1,11 @@
+{
+    "m_Dictionary": {
+        "m_DictionaryValues": [
+            {
+                "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+                "key": "buildOutputDirList",
+                "value": "{\"m_Value\":\"D:/Unity projects/CognitiveBias/CogBias5;D:/Unity projects/CognitiveBias/CogBias4;D:/Unity projects/CognitiveBias/CogBias3;D:/Unity projects/CognitiveBias/CogBias2;D:/Unity projects/CognitiveBias/Game Builds;;;;;\"}"
+            }
+        ]
+    }
+}

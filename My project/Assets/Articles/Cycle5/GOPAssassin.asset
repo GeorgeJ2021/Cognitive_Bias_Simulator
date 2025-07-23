@@ -19,7 +19,7 @@ MonoBehaviour:
     fire.\n\nOfficials believe the act was fueled by frustration, following Genericstan\u2019s
     recent ranking as \u201Cthe most boring place to live.\u201DAuthorities are urging
     calm as tensions with East Genericstan rise once again."
-  image: {fileID: 0}
+  image: {fileID: 21300000, guid: c99deab41241d41419fb3585a823e9fe, type: 3}
   isApproved: 0
   isReviewed: 0
   trustImpact: 2
@@ -28,6 +28,9 @@ MonoBehaviour:
   revenueImpact: 0
   paulSupportImpact: 0
   scientistSupportImpact: 0
+  ProFab: 0
+  AntiFab: 0
+  IsAdvert: 0
   unlockConditions:
   - referenceArticle: {fileID: 11400000, guid: 10c1b604dad29464abcd5d15b86f9966, type: 2}
     conditionType: 4

@@ -125,6 +125,10 @@ public static class CognitiveBiasLibrary
             name = "Planning Fallacy",
             explanation = "You underestimated how long or difficult a task would be, despite past experience."
         },
+        ["ReactanceBias"] = new CogBiasKeys {
+            name = "Reactance Bias",
+            explanation = "You resisted a suggestion or influence because it felt like your freedom to choose was being restricted."
+        },
         ["Custom"] = new CogBiasKeys {
             name = "Other / Custom Reason",
             explanation = "This was your own reason and may not reflect a known cognitive bias."

@@ -18,7 +18,7 @@ MonoBehaviour:
     just as independent candidate Jeff is sworn in as mayor.\n\n\u201CThis isn\u2019t
     political,\u201D said one official, \u201Cbut maybe the city just needed a reset.\u201D
     Jeff declined comment, offering only a quiet nod and a thumbs-up."
-  image: {fileID: 0}
+  image: {fileID: 21300000, guid: 0f097fa0752650d4b94e40f62c487655, type: 3}
   isApproved: 0
   isReviewed: 0
   trustImpact: 4

@@ -34,9 +34,10 @@ public class QuestionnaireManager : MonoBehaviour
                         new OptionData { text = "He seemed like a practical, no-nonsense leader", biasKey = "RepresentativenessHeuristic" },
                         new OptionData { text = "He felt like the most trustworthy candidate", biasKey = "HaloEffect" },
                         new OptionData { text = "I approved more articles about him without realizing", biasKey = "UnconsciousBias" },
-                        new OptionData { text = "Everyone seemed to be leaning toward him at the end", biasKey = "BandwagonEffect" },
+                        new OptionData { text = "Everyone seemed to be leaning toward him", biasKey = "BandwagonEffect" },
                         new OptionData { text = "I liked his backstory", biasKey = "AffectHeuristic" },
-                        new OptionData { text = "Write your own reason...", biasKey = "Custom" }
+                        new OptionData { text = "I was focusing on the article stats ", biasKey = "IncentiveBias" },
+                        new OptionData { text = "Other", biasKey = "Custom" }
                     }
                 },
 
@@ -49,7 +50,8 @@ public class QuestionnaireManager : MonoBehaviour
                         new OptionData { text = "Everyone was calling him a hero", biasKey = "BandwagonEffect" },
                         new OptionData { text = "I thought he had a clear plan, even if it was strange", biasKey = "AmbiguityEffect" },
                         new OptionData { text = "His past accidents had unexpectedly good outcomes", biasKey = "OptimismBias" },
-                        new OptionData { text = "I didn’t think he’d actually win", biasKey = "NormalcyBias" },
+                        new OptionData { text = "I didn’t think he’d actually win", biasKey = "NeglectOfProbability" },
+                        new OptionData { text = "I was focusing on the article stats ", biasKey = "IncentiveBias" },
                         new OptionData { text = "Other...", biasKey = "Custom" }
                     }
                 },
@@ -58,13 +60,14 @@ public class QuestionnaireManager : MonoBehaviour
                     conditionKey = "JeffWon",
                     questionText = "Jeff won the election due to a tie. What led you to support both Paul and the Mad Scientist equally?",
                     options = new List<OptionData> {
-                        new OptionData { text = "I tried to stay neutral between Paul and the Scientist", biasKey = "AmbiguityAversion" },
+                        new OptionData { text = "I wasn’t sure who’d be better, so I stayed neutral.", biasKey = "AmbiguityAversion" },
                         new OptionData { text = "I didn’t realize neutrality could lead to Jeff winning", biasKey = "OutcomeBias" },
                         new OptionData { text = "I just thought it would be funny", biasKey = "AffectHeuristic" },
                         new OptionData { text = "I assumed the city would figure out who was best without me", biasKey = "DiffusionOfResponsibility" },
                         new OptionData { text = "I thought being fair to both candidates would work out", biasKey = "FairnessBias" },
                         new OptionData { text = "I wasn’t really tracking who was ahead", biasKey = "UnconsciousBias" },
                         new OptionData { text = "I thought the game would prevent a tie", biasKey = "NormalcyBias" },
+                        new OptionData { text = "I was focusing on the article stats ", biasKey = "IncentiveBias" },
                         new OptionData { text = "Other...", biasKey = "Custom" }
                     }
                 },
@@ -75,7 +78,7 @@ public class QuestionnaireManager : MonoBehaviour
                     options = new List<OptionData> {
                         new OptionData { text = "I published too many fear-driven articles", biasKey = "AvailabilityBias" },
                         new OptionData { text = "I focused on controversy to boost engagement", biasKey = "IncentiveBias" },
-                        new OptionData { text = "It wasn't intentional", biasKey = "OmissionBias" },
+                        new OptionData { text = "It wasn't intentional", biasKey = "UnconsciousBias" },
                         new OptionData { text = "Other...", biasKey = "Custom" }
                     }
                 },
@@ -86,7 +89,7 @@ public class QuestionnaireManager : MonoBehaviour
                     options = new List<OptionData> {
                         new OptionData { text = "I focused on uplifting and constructive articles", biasKey = "FramingEffect" },
                         new OptionData { text = "I avoided stories that could upset readers", biasKey = "NegativityAvoidance" },
-                        new OptionData { text = "I wasn’t tracking perception stats", biasKey = "NormalcyBias" },
+                        new OptionData { text = "I wasn’t tracking perception stats", biasKey = "UnconsciousBias" },
                         new OptionData { text = "Other...", biasKey = "Custom" }
                     }
                 },
@@ -136,6 +139,7 @@ public class QuestionnaireManager : MonoBehaviour
                         new OptionData { text = "I didn’t want to risk downplaying something that could be serious.", biasKey = "LossAversion" },
                         new OptionData { text = "The stories confirmed what I already suspected about the company.", biasKey = "ConfirmationBias" },
                         new OptionData { text = "I figured the damage was already done, so why not dig deeper?", biasKey = "SunkCostFallacy" },
+                        new OptionData { text = "I wanted to push back against those pizza ads claiming he was innocent.", biasKey = "ReactanceBias" },
                         new OptionData { text = "Other...", biasKey = "Custom" }
                     }
                 },

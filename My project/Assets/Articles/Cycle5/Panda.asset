@@ -28,7 +28,7 @@ MonoBehaviour:
     with special educational programs planned to raise awareness about panda preservation.
 
 '
-  image: {fileID: 0}
+  image: {fileID: 21300000, guid: d6c974209092cf94c8e421b4d4ff56ad, type: 3}
   isApproved: 0
   isReviewed: 1
   trustImpact: 0
@@ -37,5 +37,7 @@ MonoBehaviour:
   revenueImpact: 0
   paulSupportImpact: 0
   scientistSupportImpact: 0
+  ProFab: 0
+  AntiFab: 0
   IsAdvert: 0
   unlockConditions: []

@@ -18,15 +18,18 @@ MonoBehaviour:
     protest to date: a crowd carrying signs like \u201CPlease Decide\u201D and \u201CThis
     Is Getting Weird.\u201D\n\nCritics claim the incident exposes corruption and
     incompetence within the regime."
-  image: {fileID: 0}
-  isApproved: 0
-  isReviewed: 0
+  image: {fileID: 21300000, guid: 942a4be951104624bbf12c7df1097f99, type: 3}
+  isApproved: 1
+  isReviewed: 1
   trustImpact: 2
   perceptionImpact: 4
   engagementImpact: 5
   revenueImpact: 0
   paulSupportImpact: 0
   scientistSupportImpact: 0
+  ProFab: 0
+  AntiFab: 0
+  IsAdvert: 0
   unlockConditions:
   - referenceArticle: {fileID: 11400000, guid: 10c1b604dad29464abcd5d15b86f9966, type: 2}
     conditionType: 3
